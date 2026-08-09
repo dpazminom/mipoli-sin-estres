@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="es" class="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Poli sin Estrés</title>
+    <link rel="stylesheet" href="assets/css/fonts.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body class="bg-background text-on-surface font-body-md selection:bg-primary-fixed selection:text-on-primary-fixed">
+
+    <!-- Header (TopNavBar) -->
+    <header
+        class="fixed top-0 left-0 right-0 z-50 bg-surface/80 dark:bg-surface-dim/80 backdrop-blur-lg border-b border-primary/10 dark:border-primary-fixed/10 shadow-sm">
+        <div class="max-w-[1200px] mx-auto px-gutter flex justify-between items-center h-20 w-full">
+            <div class="flex items-center gap-4">
+                <div class="flex items-center gap-2">
+                    <img src="assets/images/logo espoch.webp" alt="Logo ESPOCH" class="h-10 w-auto object-contain">
+                    <img src="assets/images/logo promocion salud.webp" alt="Logo Promoción de la Salud"
+                        class="h-10 w-auto object-contain">
+                    <a href="https://aldea.uno/mipoli-sin-estres/">
+                        <span
+                            class="font-headline-md text-headline-md font-bold text-primary dark:text-primary-fixed">Mi
+                            Poli Sin Estrés</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Desktop Navigation -->
+            <nav class="hidden md:flex items-center gap-8">
+                <a href="index.html"
+                    class="text-on-surface-variant dark:text-on-surface-variant hover:text-primary dark:hover:text-primary-fixed transition-colors hover:translate-y-[-2px] transition-transform duration-200 font-body-md text-body-md">Inicio</a>
+                <a href="consecuencias.html"
+                    class="text-on-surface-variant dark:text-on-surface-variant hover:text-primary dark:hover:text-primary-fixed transition-colors hover:translate-y-[-2px] transition-transform duration-200 font-body-md text-body-md">Consecuencias</a>
+                <a href="promocion.html"
+                    class="text-primary dark:text-primary-fixed font-bold border-b-2 border-primary dark:border-primary-fixed pb-1 font-body-md text-body-md">Promoción
+                    de la Salud</a>
+                <a href="estrategias.html"
+                    class="text-on-surface-variant dark:text-on-surface-variant hover:text-primary dark:hover:text-primary-fixed transition-colors hover:translate-y-[-2px] transition-transform duration-200 font-body-md text-body-md">Estrategias</a>
+                <a href="entretenimiento.html"
+                    class="text-on-surface-variant dark:text-on-surface-variant hover:text-primary dark:hover:text-primary-fixed transition-colors hover:translate-y-[-2px] transition-transform duration-200 font-body-md text-body-md">Entretenimiento</a>
+            </nav>
+
+            <div class="flex items-center gap-4">
+
+                <!-- Hamburger -->
+                <button class="md:hidden p-2 text-on-surface"
+                    onclick="document.getElementById('mobile-menu').classList.toggle('hidden')">
+                    <span class="material-symbols-outlined">menu</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobile-menu"
+            class="hidden md:hidden absolute top-20 left-0 w-full bg-surface border-b border-outline-variant p-gutter flex flex-col gap-4 shadow-lg animate-in slide-in-from-top duration-300">
+            <a href="index.html" class="text-on-surface-variant font-body-md text-body-md">Inicio</a>
+            <a href="consecuencias.html" class="text-on-surface-variant font-body-md text-body-md">Consecuencias</a>
+            <a href="promocion.html" class="text-primary font-bold font-body-md text-body-md">Promoción de la Salud</a>
+            <a href="estrategias.html" class="text-on-surface-variant font-body-md text-body-md">Estrategias</a>
+            <a href="entretenimiento.html" class="text-on-surface-variant font-body-md text-body-md">Entretenimiento</a>
+        </div>
+    </header>
+
+    <main class="relative overflow-hidden">
+        <!-- Hero Section -->
+        <section
+            class="max-w-[1200px] mx-auto px-gutter py-stack-lg grid md:grid-cols-2 gap-12 items-center min-h-[70vh]">
+            <div class="relative z-10">
+                <span
+                    class="bg-secondary-container text-on-secondary-container px-4 py-1 rounded-full text-label-sm font-label-sm uppercase tracking-wider inline-block mb-4">Bienestar
+                    Universitario</span>
+                <h1 class="font-display-lg text-display-lg text-primary mb-6">Tu Salud, <br><span
+                        class="text-secondary">Nuestra Prioridad</span></h1>
+                <p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-lg">
+                    Explora recursos diseñados específicamente para la comunidad politécnica. Aprende a gestionar tu
+                    estrés y construye hábitos que perduren toda la vida.
+                </p>
+                <div class="flex flex-wrap gap-4">
+                    <a href="#acciones"
+                        class="bg-primary text-on-primary px-8 py-4 rounded-xl font-bold flex items-center gap-2 hover-lift shadow-lg shadow-primary/20">
+                        <span class="material-symbols-outlined" data-original-icon="rocket_launch">rocket_launch</span>
+                        Comenzar Acciones
+                    </a>
+
+                </div>
+            </div>
+            <div class="relative flex justify-center items-center">
+                <div class="absolute w-full h-full bg-secondary-container/20 rounded-full blur-3xl -z-10 animate-pulse">
+                </div>
+                <img src="assets/images/image_6.jpg"
+                    alt="3D character render of a university student practicing a deep breathing exercise"
+                    class="w-full h-auto max-w-md animate-float drop-shadow-2xl">
+            </div>
+        </section>
+
+        <!-- Sub-Navigation Anchors -->
+        <div class="sticky top-20 z-40 bg-white/50 backdrop-blur-md py-4 border-b border-primary/5">
+            <div class="max-w-[1200px] mx-auto px-gutter flex justify-center gap-4 md:gap-12">
+                <a href="#acciones" class="flex flex-col items-center gap-1 group">
+                    <span
+                        class="material-symbols-outlined text-secondary group-hover:scale-110 transition-transform">bolt</span>
+                    <span class="text-label-sm font-label-sm">ACCIONES</span>
+                </a>
+                <a href="#habitos" class="flex flex-col items-center gap-1 group">
+                    <span
+                        class="material-symbols-outlined text-secondary group-hover:scale-110 transition-transform">eco</span>
+                    <span class="text-label-sm font-label-sm">HÁBITOS</span>
+                </a>
+                <a href="#datos" class="flex flex-col items-center gap-1 group">
+                    <span
+                        class="material-symbols-outlined text-secondary group-hover:scale-110 transition-transform">quiz</span>
+                    <span class="text-label-sm font-label-sm">CURIOSIDADES</span>
+                </a>
+            </div>
+        </div>
+
+        <!-- Acciones Section: Bento Grid -->
+        <section id="acciones" class="max-w-[1200px] mx-auto px-gutter py-stack-lg">
+            <div class="mb-stack-md text-center">
+                <h2 class="font-headline-lg text-headline-lg text-on-surface">Acciones de Promoción</h2>
+                <p class="text-on-surface-variant max-w-2xl mx-auto">Pequeños pasos que generan grandes cambios en tu
+                    entorno estudiantil.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-12 md:grid-rows-2 gap-6 min-h-[600px]">
+                <div
+                    class="md:col-span-8 md:row-span-1 glass-card p-8 rounded-3xl flex flex-col justify-end relative overflow-hidden group hover-lift">
+                    <div class="absolute top-0 right-0 p-8 text-primary/10">
+                        <span class="material-symbols-outlined text-9xl">forum</span>
+                    </div>
+                    <h3 class="font-headline-md text-headline-md text-primary mb-2">Diálogo Abierto</h3>
+                    <p class="text-body-md text-on-surface-variant mb-4">Espacios seguros de conversación para compartir
+                        experiencias académicas y reducir la carga emocional.</p>
+                    <div class="flex gap-2">
+                        <span
+                            class="bg-lavender-haze px-3 py-1 rounded-full text-xs font-bold text-primary">COMUNIDAD</span>
+                        <span
+                            class="bg-seafoam-light px-3 py-1 rounded-full text-xs font-bold text-secondary">APOYO</span>
+                    </div>
+                </div>
+                <div
+                    class="md:col-span-4 md:row-span-2 bg-primary-container p-8 rounded-3xl text-on-primary-container flex flex-col justify-between hover-lift">
+                    <div class="flex flex-col h-full gap-6">
+                        <div>
+                            <h3 class="font-headline-md text-headline-md mb-4">Tu camino al bienestar</h3>
+                            <p class="text-body-md opacity-90">Cada paso que das hoy es una inversión en tu paz mental
+                                de mañana. No estás solo en este proceso.</p>
+                        </div>
+                        <div class="flex-1 flex items-center justify-center overflow-hidden rounded-2xl bg-white/10">
+                            <img src="assets/images/image_7.jpg" alt="Smiling university student"
+                                class="w-full h-full object-cover">
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="md:col-span-4 md:row-span-1 glass-card p-8 rounded-3xl hover-lift border-l-4 border-secondary">
+                    <h3 class="font-headline-md text-headline-md text-on-surface mb-2">Zonas de Respiro</h3>
+                    <p class="text-body-md text-on-surface-variant">Identifica los puntos verdes del campus ideales para
+                        desconectar entre clases.</p>
+                    <span class="material-symbols-outlined text-secondary mt-4"
+                        data-original-icon="location_on">location_on</span>
+                </div>
+                <div class="md:col-span-4 md:row-span-1 glass-card p-8 rounded-3xl hover-lift">
+                    <h3 class="font-headline-md text-headline-md text-on-surface mb-2">Asesoría</h3>
+                    <p class="text-body-md text-on-surface-variant">Busca orientación personalizada para organizar tu
+                        carga horaria sin colapsar.</p>
+                    <span class="material-symbols-outlined text-primary mt-4">person</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hábitos Saludables Section -->
+        <section id="habitos" class="bg-surface-container-low py-stack-lg">
+            <div class="max-w-[1200px] mx-auto px-gutter">
+                <div class="flex flex-col md:flex-row justify-between items-end mb-stack-md gap-4">
+                    <div>
+                        <h2 class="font-headline-lg text-headline-lg text-on-surface">Hábitos Saludables</h2>
+                        <p class="text-on-surface-variant">El combustible para tu cerebro y cuerpo.</p>
+                    </div>
+
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <!-- Card 1 -->
+                    <div class="bg-white p-6 rounded-2xl shadow-sm hover:shadow-md transition-shadow group">
+                        <div
+                            class="w-12 h-12 rounded-xl bg-secondary-fixed flex items-center justify-center mb-4 group-hover:rotate-6 transition-transform">
+                            <span class="material-symbols-outlined text-on-secondary-fixed">bedtime</span>
+                        </div>
+                        <h4 class="font-bold mb-2">Sueño Reparador</h4>
+                        <p class="text-sm text-on-surface-variant">Prioriza 7-8 horas de descanso para consolidar lo
+                            aprendido en el día.</p>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="bg-white p-6 rounded-2xl shadow-sm hover:shadow-md transition-shadow group">
+                        <div
+                            class="w-12 h-12 rounded-xl bg-primary-fixed flex items-center justify-center mb-4 group-hover:rotate-6 transition-transform">
+                            <span class="material-symbols-outlined text-on-primary-fixed"
+                                data-original-icon="water_drop">water_drop</span>
+                        </div>
+                        <h4 class="font-bold mb-2">Hidratación Consciente</h4>
+                        <p class="text-sm text-on-surface-variant">Beber agua mejora la concentración y previene dolores
+                            de cabeza por estrés.</p>
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="bg-white p-6 rounded-2xl shadow-sm hover:shadow-md transition-shadow group">
+                        <div
+                            class="w-12 h-12 rounded-xl bg-tertiary-fixed flex items-center justify-center mb-4 group-hover:rotate-6 transition-transform">
+                            <span class="material-symbols-outlined text-on-tertiary-fixed"
+                                data-original-icon="restaurant">restaurant</span>
+                        </div>
+                        <h4 class="font-bold mb-2">Nutrición Balanceada</h4>
+                        <p class="text-sm text-on-surface-variant">Evita el exceso de cafeína y azúcares. Prefiere
+                            frutas y frutos secos.</p>
+                    </div>
+                    <!-- Card 4 -->
+                    <div class="bg-white p-6 rounded-2xl shadow-sm hover:shadow-md transition-shadow group">
+                        <div
+                            class="w-12 h-12 rounded-xl bg-error-container flex items-center justify-center mb-4 group-hover:rotate-6 transition-transform">
+                            <span class="material-symbols-outlined text-on-error-container"
+                                data-original-icon="directions_run">directions_run</span>
+                        </div>
+                        <h4 class="font-bold mb-2">Movimiento Diario</h4>
+                        <p class="text-sm text-on-surface-variant">15 min de caminata rápida reducen el cortisol
+                            drásticamente.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Datos Curiosos Section -->
+        <section id="datos" class="max-w-[1200px] mx-auto px-gutter py-stack-lg">
+            <div
+                class="bg-surface-container-highest rounded-[40px] p-8 md:p-16 flex flex-col md:flex-row items-center gap-12 overflow-hidden relative">
+                <div
+                    class="absolute top-0 left-0 w-32 h-32 bg-secondary/10 rounded-full -translate-x-16 -translate-y-16">
+                </div>
+                <div class="flex-1 z-10">
+                    <h2 class="font-headline-lg text-headline-lg text-primary mb-8 flex items-center gap-3">
+                        <span class="material-symbols-outlined text-4xl">emoji_objects</span>
+                        Más Consejos
+                    </h2>
+
+                    <div class="space-y-6">
+                        <div class="flex gap-4 items-start bg-white/50 p-4 rounded-2xl border border-white/50">
+                            <span class="material-symbols-outlined text-secondary"
+                                style="font-variation-settings: &quot;FILL&quot; 1;">check_circle</span>
+                            <p class="text-body-md"><strong>La Regla del 20-20-20:</strong> Cada 20 min, mira algo a 20
+                                pies (6 metros) por 20 segundos para evitar fatiga visual.</p>
+                        </div>
+                        <div class="flex gap-4 items-start bg-white/50 p-4 rounded-2xl border border-white/50">
+                            <span class="material-symbols-outlined text-secondary"
+                                style="font-variation-settings: &quot;FILL&quot; 1;">check_circle</span>
+                            <p class="text-body-md"><strong>El color Azul:</strong> Rodearte de tonos azules y verdes en
+                                tu escritorio ayuda a calmar el sistema nervioso central.</p>
+                        </div>
+                        <div class="flex gap-4 items-start bg-white/50 p-4 rounded-2xl border border-white/50">
+                            <span class="material-symbols-outlined text-secondary"
+                                style="font-variation-settings: &quot;FILL&quot; 1;">check_circle</span>
+                            <p class="text-body-md"><strong>Música Lo-Fi:</strong> El ritmo constante (70-90 BPM) ayuda
+                                a entrar en estado de "Flow" durante el estudio.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-1 relative">
+                    <!-- Interactive Counter / Trivia Component -->
+                    <div class="bg-white p-8 rounded-3xl shadow-xl relative z-10 border border-primary/5">
+                        <p class="text-label-sm font-label-sm text-on-surface-variant mb-2">TRIVIA RÁPIDA</p>
+                        <h4 class="font-bold text-xl mb-4">¿Cuánto tiempo de meditación reduce el estrés crónico?</h4>
+                        <div class="space-y-3">
+                            <button
+                                onclick="this.classList.add('bg-error-container', 'text-on-error-container'); document.getElementById('wrong-msg').classList.remove('hidden')"
+                                class="w-full text-left p-3 rounded-xl border border-outline-variant hover:bg-surface-container transition-colors">A)
+                                2 horas al día</button>
+                            <button
+                                onclick="this.classList.add('bg-secondary-container', 'text-on-secondary-container'); document.getElementById('correct-msg').classList.remove('hidden')"
+                                class="w-full text-left p-3 rounded-xl border border-outline-variant hover:bg-surface-container transition-colors">B)
+                                Solo 10 minutos</button>
+                            <button
+                                onclick="this.classList.add('bg-error-container', 'text-on-error-container'); document.getElementById('wrong-msg').classList.remove('hidden')"
+                                class="w-full text-left p-3 rounded-xl border border-outline-variant hover:bg-surface-container transition-colors">C)
+                                Solo fines de semana</button>
+                        </div>
+                        <p id="correct-msg" class="hidden mt-4 text-secondary font-bold text-sm">¡Correcto! La
+                            consistencia de 10 min es mejor que largas sesiones esporádicas.</p>
+                        <p id="wrong-msg" class="hidden mt-4 text-error font-bold text-sm">Casi, pero la respuesta es 10
+                            minutos constantes.</p>
+                    </div>
+                    <div class="absolute -bottom-4 -right-4 w-64 h-64 bg-primary/20 rounded-full blur-3xl"></div>
+                </div>
+            </div>
+        </section>
+        <!-- Sección de Curiosidades y Retroalimentación -->
+        <section class="py-stack-lg bg-surface-container-low border-t border-outline-variant/30">
+            <div class="max-w-[1200px] mx-auto px-gutter">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+
+                    <!-- Datos curiosos -->
+                    <div
+                        class="bg-surface rounded-3xl p-8 shadow-sm hover:shadow-md transition-shadow border border-outline-variant/20">
+                        <div class="flex items-center gap-3 mb-6">
+                            <div
+                                class="w-12 h-12 rounded-full bg-tertiary/10 flex items-center justify-center text-tertiary">
+                                <span class="material-symbols-outlined">lightbulb</span>
+                            </div>
+                            <h2 class="font-headline-md text-headline-md text-soft-navy">Datos curiosos</h2>
+                        </div>
+                        <ul class="space-y-4 font-body-md text-body-md text-on-surface-variant">
+                            <li class="flex gap-3 items-start">
+                                <span
+                                    class="material-symbols-outlined text-tertiary text-[20px] mt-0.5">psychology_alt</span>
+                                <span>La Carta de Ottawa se firmó el 21 de noviembre de 1986 durante la Primera
+                                    Conferencia Internacional sobre Promoción de la Salud, con el objetivo de alcanzar
+                                    la meta “Salud para Todos en el año 2000”.</span>
+                            </li>
+                            <li class="flex gap-3 items-start">
+                                <span
+                                    class="material-symbols-outlined text-tertiary text-[20px] mt-0.5">psychology_alt</span>
+                                <span>Según la Carta de Ottawa, la promoción de la salud “favorece el desarrollo
+                                    personal y social en tanto proporcione información, educación sanitaria y
+                                    perfeccione las aptitudes indispensables para la vida”, como el manejo del
+                                    estrés.</span>
+                            </li>
+                            <li class="flex gap-3 items-start">
+                                <span
+                                    class="material-symbols-outlined text-tertiary text-[20px] mt-0.5">psychology_alt</span>
+                                <span>En un estudio con estudiantes de Medicina, solo el 20.97% cumplía con la
+                                    recomendación de actividad física de la OMS; es decir, 8 de cada 10 universitarios
+                                    no la cumplían.</span>
+                            </li>
+                            <li class="flex gap-3 items-start">
+                                <span
+                                    class="material-symbols-outlined text-tertiary text-[20px] mt-0.5">psychology_alt</span>
+                                <span>A nivel mundial, la mala calidad de sueño afecta entre el 12% y el 40% de la
+                                    población, según estudios epidemiológicos.</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Preguntas de retroalimentación -->
+                    <div
+                        class="bg-surface rounded-3xl p-8 shadow-sm hover:shadow-md transition-shadow border border-outline-variant/20">
+                        <div class="flex items-center gap-3 mb-6">
+                            <div
+                                class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary">
+                                <span class="material-symbols-outlined">forum</span>
+                            </div>
+                            <h2 class="font-headline-md text-headline-md text-soft-navy">Preguntas de retroalimentación
+                            </h2>
+                        </div>
+                        <ul class="space-y-4 font-body-md text-body-md text-on-surface-variant">
+                            <li class="flex gap-3 items-start">
+                                <span class="material-symbols-outlined text-primary text-[20px] mt-0.5">help</span>
+                                <span>¿Cuál de las 5 áreas de acción de la Carta de Ottawa consideras más aplicable en
+                                    tu facultad para prevenir el estrés académico?</span>
+                            </li>
+                            <li class="flex gap-3 items-start">
+                                <span class="material-symbols-outlined text-primary text-[20px] mt-0.5">help</span>
+                                <span>¿Qué diferencia existe entre "promover" la salud y "prevenir" una
+                                    enfermedad?</span>
+                            </li>
+                            <li class="flex gap-3 items-start">
+                                <span class="material-symbols-outlined text-primary text-[20px] mt-0.5">help</span>
+                                <span>De los cuatro hábitos (sueño, alimentación, actividad física y descanso), ¿cuál
+                                    necesitas mejorar primero y qué acción concreta podrías tomar esta semana?</span>
+                            </li>
+                            <li class="flex gap-3 items-start">
+                                <span class="material-symbols-outlined text-primary text-[20px] mt-0.5">help</span>
+                                <span>¿Cuántas horas duermes en promedio y cuántas veces por semana realizas actividad
+                                    física?</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-surface-container-high dark:bg-surface-container-lowest w-full">
+        <div
+            class="w-full px-gutter py-stack-lg flex flex-col md:flex-row justify-between items-center max-w-[1200px] mx-auto border-t border-primary/5">
+            <div class="flex flex-col gap-4 items-center md:items-start mb-8 md:mb-0">
+                <span
+                    class="font-headline-md text-headline-md font-bold text-on-surface dark:text-on-surface-variant">Mi
+                    Poli Sin Estrés</span>
+                <p class="text-on-surface-variant text-body-md max-w-xs text-center md:text-left">Un proyecto de
+                    bienestar para la formación integral politécnica.</p>
+            </div>
+
+            <div class="flex flex-col gap-6 items-center md:items-end">
+                <!--
+                <div class="flex gap-8">
+                    <a href="#" class="text-on-surface-variant hover:text-secondary transition-colors font-body-md text-body-md">Privacidad</a>
+                    <a href="#" class="text-on-surface-variant hover:text-secondary transition-colors font-body-md text-body-md">Términos</a>
+                    <a href="#" class="text-on-surface-variant hover:text-secondary transition-colors font-body-md text-body-md">Contacto</a>
+                </div>
+                <div class="flex gap-4">
+                    <a href="#" class="w-10 h-10 rounded-full bg-white flex items-center justify-center text-primary shadow-sm hover-lift"><span class="material-symbols-outlined">share</span></a>
+                    <a href="#" class="w-10 h-10 rounded-full bg-white flex items-center justify-center text-primary shadow-sm hover-lift"><span class="material-symbols-outlined">mail</span></a>
+                </div>
+            -->
+                <p class="text-on-surface-variant font-label-sm text-label-sm">© 2026 Mi Poli Sin Estrés. Todos los
+                    derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script class="">
+        // Micro-interaction for smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Intersection Observer for animations
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('opacity-100', 'translate-y-0');
+                    entry.target.classList.remove('opacity-0', 'translate-y-10');
+                }
+            });
+        }, { threshold: 0.1 });
+
+        document.querySelectorAll('section').forEach(section => {
+            section.classList.add('transition-all', 'duration-1000', 'opacity-0', 'translate-y-10');
+            observer.observe(section);
+        });
+    </script>
+</body>
+
+</html>

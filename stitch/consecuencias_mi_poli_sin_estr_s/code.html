@@ -1,0 +1,283 @@
+<!DOCTYPE html><html lang="es" class="light" style=""><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&amp;family=Hanken+Grotesk:wght@600&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=block" rel="stylesheet"><script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script><script id="tailwind-config">try{
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "surface-container-highest": "#e2e1ee",
+                      "on-secondary-fixed": "#00201d",
+                      "surface-container": "#ededf9",
+                      "on-error-container": "#93000a",
+                      "surface-bright": "#fbf8ff",
+                      "on-tertiary-fixed-variant": "#3f465c",
+                      "stress-alert": "#FF6B6B",
+                      "on-tertiary": "#ffffff",
+                      "on-primary-fixed-variant": "#0037b9",
+                      "on-primary": "#ffffff",
+                      "on-error": "#ffffff",
+                      "tertiary-container": "#60687f",
+                      "surface-tint": "#1c4ee3",
+                      "secondary-fixed-dim": "#5adace",
+                      "on-surface": "#191b24",
+                      "inverse-surface": "#2e3039",
+                      "outline": "#747687",
+                      "on-tertiary-container": "#e3e8ff",
+                      "inverse-on-surface": "#f0effc",
+                      "on-background": "#191b24",
+                      "primary-container": "#2d5aee",
+                      "surface-dim": "#d9d9e5",
+                      "error-container": "#ffdad6",
+                      "soft-navy": "#1E293B",
+                      "on-primary-container": "#e6e8ff",
+                      "primary": "#003fd0",
+                      "outline-variant": "#c4c5d8",
+                      "on-surface-variant": "#434655",
+                      "on-secondary-container": "#007169",
+                      "tertiary-fixed": "#dae2fd",
+                      "surface-container-lowest": "#ffffff",
+                      "lavender-haze": "#EBEBFF",
+                      "error": "#ba1a1a",
+                      "on-primary-fixed": "#001453",
+                      "surface": "#fbf8ff",
+                      "secondary-fixed": "#79f7ea",
+                      "on-secondary-fixed-variant": "#00504a",
+                      "tertiary-fixed-dim": "#bec6e0",
+                      "on-tertiary-fixed": "#131b2e",
+                      "on-secondary": "#ffffff",
+                      "seafoam-light": "#E6FFFA",
+                      "surface-container-low": "#f3f2ff",
+                      "secondary": "#006a63",
+                      "tertiary": "#485066",
+                      "surface-variant": "#e2e1ee",
+                      "primary-fixed": "#dde1ff",
+                      "inverse-primary": "#b8c4ff",
+                      "background": "#fbf8ff",
+                      "secondary-container": "#79f7ea",
+                      "primary-fixed-dim": "#b8c4ff",
+                      "surface-container-high": "#e8e7f3"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.25rem",
+                      "lg": "0.5rem",
+                      "xl": "0.75rem",
+                      "full": "9999px"
+              },
+              "spacing": {
+                      "gutter": "24px",
+                      "base": "8px",
+                      "margin-mobile": "16px",
+                      "container-max": "1200px",
+                      "stack-sm": "12px",
+                      "stack-lg": "48px",
+                      "stack-md": "24px"
+              },
+              "fontFamily": {
+                      "body-md": ["Plus Jakarta Sans"],
+                      "headline-lg": ["Plus Jakarta Sans"],
+                      "headline-md": ["Plus Jakarta Sans"],
+                      "body-lg": ["Plus Jakarta Sans"],
+                      "headline-lg-mobile": ["Plus Jakarta Sans"],
+                      "display-lg": ["Plus Jakarta Sans"],
+                      "label-sm": ["Hanken Grotesk"]
+              },
+              "fontSize": {
+                      "body-md": ["16px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                      "headline-lg": ["32px", {"lineHeight": "1.2", "fontWeight": "700"}],
+                      "headline-md": ["24px", {"lineHeight": "1.3", "fontWeight": "600"}],
+                      "body-lg": ["18px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                      "headline-lg-mobile": ["28px", {"lineHeight": "1.2", "fontWeight": "700"}],
+                      "display-lg": ["48px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "800"}],
+                      "label-sm": ["12px", {"lineHeight": "1", "letterSpacing": "0.05em", "fontWeight": "600"}]
+              }
+            },
+          },
+        }
+    }catch(_e){}</script><meta charset="utf-8"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=block" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@100..900&amp;family=Plus+Jakarta+Sans:wght@100..900&amp;display=swap" rel="stylesheet"></head><body class="bg-background text-on-surface font-body-md min-h-screen">
+<!-- Top Navigation Bar -->
+<nav class="docked full-width top-0 sticky z-50 bg-surface/80 dark:bg-surface-dim/80 backdrop-blur-lg border-b border-primary/10 dark:border-primary-fixed/10 shadow-sm">
+<div class="max-w-[1200px] mx-auto px-gutter flex justify-between items-center h-20 w-full">
+<div class="flex items-center gap-2">
+<span class="font-headline-md text-headline-md font-bold text-primary dark:text-primary-fixed">Mi Poli Sin Estrés</span>
+</div>
+<div class="hidden md:flex items-center gap-8">
+<a href="#" class="font-body-md text-body-md text-on-surface-variant dark:text-on-surface-variant hover:text-primary dark:hover:text-primary-fixed transition-colors hover:translate-y-[-2px] transition-transform duration-200">Inicio</a>
+<a href="#" class="font-body-md text-body-md text-primary dark:text-primary-fixed font-bold border-b-2 border-primary dark:border-primary-fixed pb-1 hover:translate-y-[-2px] transition-transform duration-200">Consecuencias</a>
+<a href="#" class="font-body-md text-body-md text-on-surface-variant dark:text-on-surface-variant hover:text-primary dark:hover:text-primary-fixed transition-colors hover:translate-y-[-2px] transition-transform duration-200">Promoción de la Salud</a>
+<a href="#" class="font-body-md text-body-md text-on-surface-variant dark:text-on-surface-variant hover:text-primary dark:hover:text-primary-fixed transition-colors hover:translate-y-[-2px] transition-transform duration-200">Estrategias</a>
+<a href="#" class="font-body-md text-body-md text-on-surface-variant dark:text-on-surface-variant hover:text-primary dark:hover:text-primary-fixed transition-colors hover:translate-y-[-2px] transition-transform duration-200">Entretenimiento</a>
+</div>
+
+</div>
+</nav>
+<main class="hero-gradient">
+<!-- Hero Section -->
+<section class="max-w-[1200px] mx-auto px-gutter py-stack-lg grid md:grid-cols-2 gap-12 items-center">
+<div class="space-y-6 transition-all duration-700 opacity-100 translate-y-0">
+<span class="inline-block bg-secondary-container text-on-secondary-container px-4 py-1.5 rounded-full font-label-sm text-label-sm uppercase tracking-wider">Impacto Académico</span>
+<h1 class="font-display-lg text-display-lg text-primary">Cuando el estrés deja de ser un impulso</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant">
+                    Identificar las señales a tiempo es el primer paso para recuperar el equilibrio. El estrés académico no solo afecta tus notas, impacta tu bienestar integral.
+                </p>
+<div class="flex gap-4">
+<button class="bg-primary text-on-primary px-8 py-4 rounded-full font-bold shadow-lg hover:translate-y-[-2px] transition-all flex items-center gap-2">
+<span class="material-symbols-outlined">analytics</span>Busca ayuda</button>
+</div>
+</div>
+<div class="relative transition-all duration-700 opacity-100 translate-y-0">
+<div class="absolute -inset-4 bg-primary/5 blur-3xl rounded-full"></div>
+<img src="https://lh3.googleusercontent.com/aida-public/AB6AXuBMRmhc_PB1Df7Fg4qBWrYkMPRInpVfQ5Hl77Dq1c2O0oohLMGHEygLn5MSbNsnNYcCokH9_52Q_bIDLWp_Dh7Jv-i3jicxy6vxqFFPEsbXI8pGI3YDVXmL7AkPaGwFhl-5eJIjoQ16Kedae34gyPGSxeuPgo3GFBRscD0xTlWrXE4b69gxgKDkso7o4oXIkBaF9A2GYQLETORpdBx4cmd3AdoaIE5RVCLUjIeAJzSuWVc8bBj5siAWhxJ8MQ8LdR0vWVUXLDbUDaQ" alt="Estudiante universitario estresado" class="relative z-10 w-full h-auto rounded-3xl shadow-xl hover:rotate-1 transition-transform duration-500">
+</div>
+</section>
+<!-- Symptoms Bento Grid -->
+<section class="max-w-[1200px] mx-auto px-gutter py-stack-lg">
+<div class="text-center mb-12 transition-all duration-700 opacity-100 translate-y-0">
+<h2 class="font-headline-lg text-headline-lg text-on-surface mb-4">¿Cómo se manifiesta en ti?</h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-2xl mx-auto">
+                    El cuerpo y la mente envían señales claras. Reconocer estos síntomas es vital para buscar el apoyo necesario.
+                </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6 transition-all duration-700 opacity-100 translate-y-0">
+<!-- Anxiety Card -->
+<div class="glass-card p-8 rounded-3xl space-y-4 hover:shadow-md transition-all group">
+<div class="w-12 h-12 rounded-2xl bg-stress-alert/10 flex items-center justify-center text-stress-alert group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined" style="font-variation-settings: &quot;FILL&quot; 1;">warning</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary">Ansiedad</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Sensación constante de nerviosismo, preocupación excesiva por el rendimiento y agitación mental antes de evaluaciones.</p>
+</div>
+<!-- Insomnia Card -->
+<div class="glass-card p-8 rounded-3xl space-y-4 hover:shadow-md transition-all group border-t-4 border-t-secondary">
+<div class="w-12 h-12 rounded-2xl bg-secondary/10 flex items-center justify-center text-secondary group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined" style="font-variation-settings: &quot;FILL&quot; 1;">bedtime</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-secondary">Insomnio</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Dificultad para conciliar el sueño o despertares frecuentes. La falta de descanso crea un ciclo vicioso de agotamiento.</p>
+</div>
+<!-- Concentration Card -->
+<div class="glass-card p-8 rounded-3xl space-y-4 hover:shadow-md transition-all group">
+<div class="w-12 h-12 rounded-2xl bg-primary/10 flex items-center justify-center text-primary group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined" style="font-variation-settings: &quot;FILL&quot; 1;" data-original-icon="center_focus_strong">center_focus_strong</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary">Falta de Concentración</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Incapacidad para enfocar la atención en tareas simples, olvidos frecuentes y disminución de la agilidad mental.</p>
+</div>
+</div>
+</section>
+<!-- Risk Factors Section -->
+<section class="bg-surface-container-low py-stack-lg">
+<div class="max-w-[1200px] mx-auto px-gutter grid md:grid-cols-2 gap-16 items-center transition-all duration-700 opacity-100 translate-y-0">
+<div class="order-2 md:order-1 space-y-8">
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Factores de Riesgo Críticos</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant">Existen circunstancias específicas que pueden hacerte más vulnerable al estrés severo. Identificarlas te permite actuar preventivamente.</p>
+<ul class="space-y-4">
+<li class="flex items-start gap-4 p-4 rounded-2xl bg-surface hover:bg-white transition-colors border border-outline-variant/30">
+<div class="mt-1 w-6 h-6 rounded-full bg-secondary-fixed text-on-secondary-fixed flex items-center justify-center flex-shrink-0">
+<span class="material-symbols-outlined text-[16px]">check</span>
+</div>
+<div>
+<h4 class="font-bold text-primary">Carreras de la Salud</h4>
+<p class="text-on-surface-variant text-sm">La alta carga académica y la responsabilidad ética generan niveles de presión superiores al promedio.</p>
+</div>
+</li>
+<li class="flex items-start gap-4 p-4 rounded-2xl bg-surface hover:bg-white transition-colors border border-outline-variant/30">
+<div class="mt-1 w-6 h-6 rounded-full bg-secondary-fixed text-on-secondary-fixed flex items-center justify-center flex-shrink-0">
+<span class="material-symbols-outlined text-[16px]">check</span>
+</div>
+<div>
+<h4 class="font-bold text-primary">Vivir Solo / Independencia</h4>
+<p class="text-on-surface-variant text-sm">La gestión del hogar sumada a la soledad puede debilitar la red de apoyo emocional necesaria.</p>
+</div>
+</li>
+<li class="flex items-start gap-4 p-4 rounded-2xl bg-surface hover:bg-white transition-colors border border-outline-variant/30">
+<div class="mt-1 w-6 h-6 rounded-full bg-secondary-fixed text-on-secondary-fixed flex items-center justify-center flex-shrink-0">
+<span class="material-symbols-outlined text-[16px]">check</span>
+</div>
+<div>
+<h4 class="font-bold text-primary">Baja Red de Apoyo</h4>
+<p class="text-on-surface-variant text-sm">No tener amigos o familiares cerca con quienes compartir las cargas del día a día.</p>
+</div>
+</li>
+</ul>
+</div>
+<div class="order-1 md:order-2 grid grid-cols-2 gap-4">
+<div class="space-y-4">
+<div class="h-48 rounded-3xl bg-primary-container/20 flex flex-col items-center justify-center p-6 text-center border border-primary/10">
+<span class="material-symbols-outlined text-primary text-4xl mb-2" data-original-icon="medical_services">medical_services</span>
+<span class="font-bold text-on-surface">Cuidado Médico</span>
+</div>
+<div class="h-64 rounded-3xl bg-secondary-container/20 flex flex-col items-center justify-center p-6 text-center border border-secondary/10">
+<span class="material-symbols-outlined text-secondary text-4xl mb-2" data-original-icon="home_pin">home_pin</span>
+<span class="font-bold text-on-surface">Apoyo Local</span>
+</div>
+</div>
+<div class="space-y-4 pt-12">
+<div class="h-64 rounded-3xl bg-lavender-haze flex flex-col items-center justify-center p-6 text-center border border-primary/10">
+<span class="material-symbols-outlined text-primary-fixed-dim text-4xl mb-2" data-original-icon="diversity_3">diversity_3</span>
+<span class="font-bold text-on-surface">Comunidad Poli</span>
+</div>
+<div class="h-48 rounded-3xl bg-surface-container-highest flex flex-col items-center justify-center p-6 text-center border border-outline-variant/50">
+<span class="material-symbols-outlined text-on-surface-variant text-4xl mb-2" data-original-icon="psychology">psychology</span>
+<span class="font-bold text-on-surface">Mente Sana</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Supportive CTA -->
+<section class="max-w-[1200px] mx-auto px-gutter py-stack-lg">
+<div class="bg-primary text-on-primary rounded-[40px] p-12 text-center relative overflow-hidden transition-all duration-700 opacity-100 translate-y-0">
+<div class="absolute top-0 right-0 w-64 h-64 bg-white/10 rounded-full blur-3xl -mr-32 -mt-32"></div>
+<div class="absolute bottom-0 left-0 w-64 h-64 bg-secondary/20 rounded-full blur-3xl -ml-32 -mb-32"></div>
+<h2 class="font-headline-lg text-headline-lg mb-6 relative z-10">No tienes que enfrentar esto a solas</h2>
+<p class="font-body-lg text-body-lg text-primary-fixed max-w-2xl mx-auto mb-10 relative z-10">
+                    Si te identificas con varios de estos síntomas, recuerda que la ESPOCH cuenta con servicios de bienestar estudiantil listos para apoyarte.
+                </p>
+<div class="flex flex-col sm:flex-row justify-center gap-4 relative z-10">
+<button class="bg-white text-primary px-8 py-4 rounded-full font-bold hover:bg-lavender-haze transition-colors shadow-xl">
+                        Contactar Bienestar
+                    </button>
+<button class="border-2 border-white/30 text-white px-8 py-4 rounded-full font-bold hover:bg-white/10 transition-colors">
+                        Ver Estrategias de Alivio
+                    </button>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full bg-surface-container-high dark:bg-surface-container-lowest">
+<div class="w-full px-gutter py-stack-lg flex flex-col md:flex-row justify-between items-center max-w-[1200px] mx-auto">
+<div class="mb-8 md:mb-0">
+<span class="font-headline-md text-headline-md font-bold text-on-surface dark:text-on-surface-variant block mb-2">Mi Poli Sin Estrés</span>
+<p class="text-on-surface-variant font-label-sm text-label-sm">© 2026 Mi Poli Sin Estrés. Todos los derechos reservados.</p>
+</div>
+<div class="flex flex-wrap justify-center gap-8">
+<a href="#" class="font-label-sm text-label-sm text-on-surface-variant dark:text-outline hover:text-secondary dark:hover:text-secondary-fixed transition-colors focus:ring-2 ring-primary/20 rounded">Privacidad</a>
+<a href="#" class="font-label-sm text-label-sm text-on-surface-variant dark:text-outline hover:text-secondary dark:hover:text-secondary-fixed transition-colors focus:ring-2 ring-primary/20 rounded">Términos</a>
+<a href="#" class="font-label-sm text-label-sm text-on-surface-variant dark:text-outline hover:text-secondary dark:hover:text-secondary-fixed transition-colors focus:ring-2 ring-primary/20 rounded">Contacto</a>
+<a href="#" class="font-label-sm text-label-sm text-on-surface-variant dark:text-outline hover:text-secondary dark:hover:text-secondary-fixed transition-colors focus:ring-2 ring-primary/20 rounded">Newsletter</a>
+</div>
+</div>
+</footer>
+<script>
+        // Simple intersection observer for reveal animations
+        const observerOptions = {
+            threshold: 0.1
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('opacity-100', 'translate-y-0');
+                    entry.target.classList.remove('opacity-0', 'translate-y-8');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('section > div').forEach(el => {
+            el.classList.add('transition-all', 'duration-700', 'opacity-0', 'translate-y-8');
+            observer.observe(el);
+        });
+    </script>
+
+
+</body></html>

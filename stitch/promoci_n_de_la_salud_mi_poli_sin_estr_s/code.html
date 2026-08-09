@@ -1,0 +1,331 @@
+<!DOCTYPE html><html lang="es" class="light" style=""><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&amp;family=Hanken+Grotesk:wght@600&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=block" rel="stylesheet"><script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script><script id="tailwind-config">try{
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "surface-container-highest": "#e2e1ee",
+                      "on-secondary-fixed": "#00201d",
+                      "surface-container": "#ededf9",
+                      "on-error-container": "#93000a",
+                      "surface-bright": "#fbf8ff",
+                      "on-tertiary-fixed-variant": "#3f465c",
+                      "stress-alert": "#FF6B6B",
+                      "on-tertiary": "#ffffff",
+                      "on-primary-fixed-variant": "#0037b9",
+                      "on-primary": "#ffffff",
+                      "on-error": "#ffffff",
+                      "tertiary-container": "#60687f",
+                      "surface-tint": "#1c4ee3",
+                      "secondary-fixed-dim": "#5adace",
+                      "on-surface": "#191b24",
+                      "inverse-surface": "#2e3039",
+                      "outline": "#747687",
+                      "on-tertiary-container": "#e3e8ff",
+                      "inverse-on-surface": "#f0effc",
+                      "on-background": "#191b24",
+                      "primary-container": "#2d5aee",
+                      "surface-dim": "#d9d9e5",
+                      "error-container": "#ffdad6",
+                      "soft-navy": "#1E293B",
+                      "on-primary-container": "#e6e8ff",
+                      "primary": "#003fd0",
+                      "outline-variant": "#c4c5d8",
+                      "on-surface-variant": "#434655",
+                      "on-secondary-container": "#007169",
+                      "tertiary-fixed": "#dae2fd",
+                      "surface-container-lowest": "#ffffff",
+                      "lavender-haze": "#EBEBFF",
+                      "error": "#ba1a1a",
+                      "on-primary-fixed": "#001453",
+                      "surface": "#fbf8ff",
+                      "secondary-fixed": "#79f7ea",
+                      "on-secondary-fixed-variant": "#00504a",
+                      "tertiary-fixed-dim": "#bec6e0",
+                      "on-tertiary-fixed": "#131b2e",
+                      "on-secondary": "#ffffff",
+                      "seafoam-light": "#E6FFFA",
+                      "surface-container-low": "#f3f2ff",
+                      "secondary": "#006a63",
+                      "tertiary": "#485066",
+                      "surface-variant": "#e2e1ee",
+                      "primary-fixed": "#dde1ff",
+                      "inverse-primary": "#b8c4ff",
+                      "background": "#fbf8ff",
+                      "secondary-container": "#79f7ea",
+                      "primary-fixed-dim": "#b8c4ff",
+                      "surface-container-high": "#e8e7f3"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.25rem",
+                      "lg": "0.5rem",
+                      "xl": "0.75rem",
+                      "full": "9999px"
+              },
+              "spacing": {
+                      "gutter": "24px",
+                      "base": "8px",
+                      "margin-mobile": "16px",
+                      "container-max": "1200px",
+                      "stack-sm": "12px",
+                      "stack-lg": "48px",
+                      "stack-md": "24px"
+              },
+              "fontFamily": {
+                      "body-md": ["Plus Jakarta Sans"],
+                      "headline-lg": ["Plus Jakarta Sans"],
+                      "headline-md": ["Plus Jakarta Sans"],
+                      "body-lg": ["Plus Jakarta Sans"],
+                      "headline-lg-mobile": ["Plus Jakarta Sans"],
+                      "display-lg": ["Plus Jakarta Sans"],
+                      "label-sm": ["Hanken Grotesk"]
+              },
+              "fontSize": {
+                      "body-md": ["16px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                      "headline-lg": ["32px", {"lineHeight": "1.2", "fontWeight": "700"}],
+                      "headline-md": ["24px", {"lineHeight": "1.3", "fontWeight": "600"}],
+                      "body-lg": ["18px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                      "headline-lg-mobile": ["28px", {"lineHeight": "1.2", "fontWeight": "700"}],
+                      "display-lg": ["48px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "800"}],
+                      "label-sm": ["12px", {"lineHeight": "1", "letterSpacing": "0.05em", "fontWeight": "600"}]
+              }
+            },
+          },
+        }
+      }catch(_e){}</script></head><body class="bg-background text-on-surface font-body-md selection:bg-primary-fixed selection:text-on-primary-fixed">
+
+    <!-- TopNavBar -->
+    <nav class="docked full-width top-0 sticky z-50 bg-surface/80 backdrop-blur-lg border-b border-primary/10 shadow-sm">
+        <div class="max-w-[1200px] mx-auto px-gutter flex justify-between items-center h-20 w-full">
+            <div class="flex items-center gap-2">
+                <span class="material-symbols-outlined text-primary text-3xl" style="font-variation-settings: &quot;FILL&quot; 1;" data-original-icon="health_and_safety">health_and_safety</span>
+                <span class="font-headline-md text-headline-md font-bold text-primary">Mi Poli Sin Estrés</span>
+            </div>
+            
+            <div class="hidden md:flex gap-8 items-center">
+                <a href="#" class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors hover:translate-y-[-2px]">Inicio</a>
+                <a href="#" class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors hover:translate-y-[-2px]">Consecuencias</a>
+                <a href="#" class="font-body-md text-body-md text-primary font-bold border-b-2 border-primary pb-1">Promoción de la Salud</a>
+                <a href="#" class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors hover:translate-y-[-2px]">Estrategias</a>
+                <a href="#" class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors hover:translate-y-[-2px]">Entretenimiento</a>
+            </div>
+
+            
+        </div>
+    </nav>
+
+    <main class="relative overflow-hidden">
+        <!-- Hero Section -->
+        <section class="max-w-[1200px] mx-auto px-gutter py-stack-lg grid md:grid-cols-2 gap-12 items-center min-h-[70vh]">
+            <div class="relative z-10">
+                <span class="bg-secondary-container text-on-secondary-container px-4 py-1 rounded-full text-label-sm font-label-sm uppercase tracking-wider inline-block mb-4">Bienestar Universitario</span>
+                <h1 class="font-display-lg text-display-lg text-primary mb-6">Tu Salud, <br><span class="text-secondary">Nuestra Prioridad</span></h1>
+                <p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-lg">
+                    Explora recursos diseñados específicamente para la comunidad politécnica. Aprende a gestionar tu estrés y construye hábitos que perduren toda la vida.
+                </p>
+                <div class="flex flex-wrap gap-4">
+                    <a href="#acciones" class="bg-primary text-on-primary px-8 py-4 rounded-xl font-bold flex items-center gap-2 hover-lift shadow-lg shadow-primary/20">
+                        <span class="material-symbols-outlined" data-original-icon="rocket_launch">rocket_launch</span>
+                        Comenzar Acciones
+                    </a>
+                    
+                </div>
+            </div>
+            <div class="relative flex justify-center items-center">
+                <div class="absolute w-full h-full bg-secondary-container/20 rounded-full blur-3xl -z-10 animate-pulse"></div>
+                <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDZJCgmUL0r2Ub3QtfFXO_5nRlmHN4j0RQDqCmwTFyIvOPwJ1PaJwJsNlRl22tw9CWHFNSVyezeKcwIX95gyZKsGyaJYVISyQ36bgntl8AsZ3Ltt4vVwwJ5QHHG6Dwr-9i4OW6f8JSyf11vWm8m4j1Z74Fb9jxRs4utrJHw9gIvoQaeQtVD9t5rt5RlbwWfefKhyf8iXC22PQvPUgW_BPED6aZ6xmP2nNCqA-MAylTREPWPOVm_qXXlY86Ir8psV1wl8XrIi5yYijA" alt="3D character render of a university student practicing a deep breathing exercise" class="w-full h-auto max-w-md animate-float drop-shadow-2xl">
+            </div>
+        </section>
+
+        <!-- Sub-Navigation Anchors -->
+        <div class="sticky top-20 z-40 bg-white/50 backdrop-blur-md py-4 border-b border-primary/5">
+            <div class="max-w-[1200px] mx-auto px-gutter flex justify-center gap-4 md:gap-12">
+                <a href="#acciones" class="flex flex-col items-center gap-1 group">
+                    <span class="material-symbols-outlined text-secondary group-hover:scale-110 transition-transform">bolt</span>
+                    <span class="text-label-sm font-label-sm">ACCIONES</span>
+                </a>
+                <a href="#habitos" class="flex flex-col items-center gap-1 group">
+                    <span class="material-symbols-outlined text-secondary group-hover:scale-110 transition-transform">eco</span>
+                    <span class="text-label-sm font-label-sm">HÁBITOS</span>
+                </a>
+                <a href="#datos" class="flex flex-col items-center gap-1 group">
+                    <span class="material-symbols-outlined text-secondary group-hover:scale-110 transition-transform">quiz</span>
+                    <span class="text-label-sm font-label-sm">CURIOSIDADES</span>
+                </a>
+            </div>
+        </div>
+
+        <!-- Acciones Section: Bento Grid -->
+        <section id="acciones" class="max-w-[1200px] mx-auto px-gutter py-stack-lg">
+            <div class="mb-stack-md text-center">
+                <h2 class="font-headline-lg text-headline-lg text-on-surface">Acciones de Promoción</h2>
+                <p class="text-on-surface-variant max-w-2xl mx-auto">Pequeños pasos que generan grandes cambios en tu entorno estudiantil.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-12 md:grid-rows-2 gap-6 min-h-[600px]">
+                <div class="md:col-span-8 md:row-span-1 glass-card p-8 rounded-3xl flex flex-col justify-end relative overflow-hidden group hover-lift">
+                    <div class="absolute top-0 right-0 p-8 text-primary/10">
+                        <span class="material-symbols-outlined text-9xl">forum</span>
+                    </div>
+                    <h3 class="font-headline-md text-headline-md text-primary mb-2">Diálogo Abierto</h3>
+                    <p class="text-body-md text-on-surface-variant mb-4">Espacios seguros de conversación para compartir experiencias académicas y reducir la carga emocional.</p>
+                    <div class="flex gap-2">
+                        <span class="bg-lavender-haze px-3 py-1 rounded-full text-xs font-bold text-primary">COMUNIDAD</span>
+                        <span class="bg-seafoam-light px-3 py-1 rounded-full text-xs font-bold text-secondary">APOYO</span>
+                    </div>
+                </div>
+                <div class="md:col-span-4 md:row-span-2 bg-primary-container p-8 rounded-3xl text-on-primary-container flex flex-col justify-between hover-lift"><div class="flex flex-col h-full gap-6"><div><h3 class="font-headline-md text-headline-md mb-4">Tu camino al bienestar</h3><p class="text-body-md opacity-90">Cada paso que das hoy es una inversión en tu paz mental de mañana. No estás solo en este proceso.</p></div><div class="flex-1 flex items-center justify-center overflow-hidden rounded-2xl bg-white/10"><img src="https://lh3.googleusercontent.com/aida-public/AB6AXuB2z_ye6MUncmXdYTpji4Rd-7z-Pjf4JqwzvMxGdrUu9lWcGooWBTT5Xa3ywhjxPkSiKCXpDs73_Y4z6JCCsof7i1x6mqnnB4DCqurZ0b3-bXmjd0PtpK6z1qT0HhCfsAqkKDkkrmQm4w4H5cbAr73EO-orVv00Ui-Uy_3Ws_s1GYB-mO7ylOUk2gN0lkm_ZLxz76LudEluYDrQNBhCj3CR_Gq-ZQpPQl149l4qWUXHjWjqhH1kNOjG_QtLd7YMs1pRMS4upHI6Buo" alt="Smiling university student" class="w-full h-full object-cover"></div></div></div>
+                <div class="md:col-span-4 md:row-span-1 glass-card p-8 rounded-3xl hover-lift border-l-4 border-secondary">
+                    <h3 class="font-headline-md text-headline-md text-on-surface mb-2">Zonas de Respiro</h3>
+                    <p class="text-body-md text-on-surface-variant">Identifica los puntos verdes del campus ideales para desconectar entre clases.</p>
+                    <span class="material-symbols-outlined text-secondary mt-4" data-original-icon="location_on">location_on</span>
+                </div>
+                <div class="md:col-span-4 md:row-span-1 glass-card p-8 rounded-3xl hover-lift">
+                    <h3 class="font-headline-md text-headline-md text-on-surface mb-2">Asesoría</h3>
+                    <p class="text-body-md text-on-surface-variant">Busca orientación personalizada para organizar tu carga horaria sin colapsar.</p>
+                    <span class="material-symbols-outlined text-primary mt-4">person</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hábitos Saludables Section -->
+        <section id="habitos" class="bg-surface-container-low py-stack-lg">
+            <div class="max-w-[1200px] mx-auto px-gutter">
+                <div class="flex flex-col md:flex-row justify-between items-end mb-stack-md gap-4">
+                    <div>
+                        <h2 class="font-headline-lg text-headline-lg text-on-surface">Hábitos Saludables</h2>
+                        <p class="text-on-surface-variant">El combustible para tu cerebro y cuerpo.</p>
+                    </div>
+                    
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <!-- Card 1 -->
+                    <div class="bg-white p-6 rounded-2xl shadow-sm hover:shadow-md transition-shadow group">
+                        <div class="w-12 h-12 rounded-xl bg-secondary-fixed flex items-center justify-center mb-4 group-hover:rotate-6 transition-transform">
+                            <span class="material-symbols-outlined text-on-secondary-fixed">bedtime</span>
+                        </div>
+                        <h4 class="font-bold mb-2">Sueño Reparador</h4>
+                        <p class="text-sm text-on-surface-variant">Prioriza 7-8 horas de descanso para consolidar lo aprendido en el día.</p>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="bg-white p-6 rounded-2xl shadow-sm hover:shadow-md transition-shadow group">
+                        <div class="w-12 h-12 rounded-xl bg-primary-fixed flex items-center justify-center mb-4 group-hover:rotate-6 transition-transform">
+                            <span class="material-symbols-outlined text-on-primary-fixed" data-original-icon="water_drop">water_drop</span>
+                        </div>
+                        <h4 class="font-bold mb-2">Hidratación Consciente</h4>
+                        <p class="text-sm text-on-surface-variant">Beber agua mejora la concentración y previene dolores de cabeza por estrés.</p>
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="bg-white p-6 rounded-2xl shadow-sm hover:shadow-md transition-shadow group">
+                        <div class="w-12 h-12 rounded-xl bg-tertiary-fixed flex items-center justify-center mb-4 group-hover:rotate-6 transition-transform">
+                            <span class="material-symbols-outlined text-on-tertiary-fixed" data-original-icon="restaurant">restaurant</span>
+                        </div>
+                        <h4 class="font-bold mb-2">Nutrición Balanceada</h4>
+                        <p class="text-sm text-on-surface-variant">Evita el exceso de cafeína y azúcares. Prefiere frutas y frutos secos.</p>
+                    </div>
+                    <!-- Card 4 -->
+                    <div class="bg-white p-6 rounded-2xl shadow-sm hover:shadow-md transition-shadow group">
+                        <div class="w-12 h-12 rounded-xl bg-error-container flex items-center justify-center mb-4 group-hover:rotate-6 transition-transform">
+                            <span class="material-symbols-outlined text-on-error-container" data-original-icon="directions_run">directions_run</span>
+                        </div>
+                        <h4 class="font-bold mb-2">Movimiento Diario</h4>
+                        <p class="text-sm text-on-surface-variant">15 min de caminata rápida reducen el cortisol drásticamente.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Datos Curiosos Section -->
+        <section id="datos" class="max-w-[1200px] mx-auto px-gutter py-stack-lg">
+            <div class="bg-surface-container-highest rounded-[40px] p-8 md:p-16 flex flex-col md:flex-row items-center gap-12 overflow-hidden relative">
+                <div class="absolute top-0 left-0 w-32 h-32 bg-secondary/10 rounded-full -translate-x-16 -translate-y-16"></div>
+                <div class="flex-1 z-10">
+                    <h2 class="font-headline-lg text-headline-lg text-primary mb-8 flex items-center gap-3">
+                        <span class="material-symbols-outlined text-4xl">emoji_objects</span>
+                        Datos Curiosos
+                    </h2>
+                    
+                    <div class="space-y-6">
+                        <div class="flex gap-4 items-start bg-white/50 p-4 rounded-2xl border border-white/50">
+                            <span class="material-symbols-outlined text-secondary" style="font-variation-settings: &quot;FILL&quot; 1;">check_circle</span>
+                            <p class="text-body-md"><strong>La Regla del 20-20-20:</strong> Cada 20 min, mira algo a 20 pies (6 metros) por 20 segundos para evitar fatiga visual.</p>
+                        </div>
+                        <div class="flex gap-4 items-start bg-white/50 p-4 rounded-2xl border border-white/50">
+                            <span class="material-symbols-outlined text-secondary" style="font-variation-settings: &quot;FILL&quot; 1;">check_circle</span>
+                            <p class="text-body-md"><strong>El color Azul:</strong> Rodearte de tonos azules y verdes en tu escritorio ayuda a calmar el sistema nervioso central.</p>
+                        </div>
+                        <div class="flex gap-4 items-start bg-white/50 p-4 rounded-2xl border border-white/50">
+                            <span class="material-symbols-outlined text-secondary" style="font-variation-settings: &quot;FILL&quot; 1;">check_circle</span>
+                            <p class="text-body-md"><strong>Música Lo-Fi:</strong> El ritmo constante (70-90 BPM) ayuda a entrar en estado de "Flow" durante el estudio.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-1 relative">
+                    <!-- Interactive Counter / Trivia Component -->
+                    <div class="bg-white p-8 rounded-3xl shadow-xl relative z-10 border border-primary/5">
+                        <p class="text-label-sm font-label-sm text-on-surface-variant mb-2">TRIVIA RÁPIDA</p>
+                        <h4 class="font-bold text-xl mb-4">¿Cuánto tiempo de meditación reduce el estrés crónico?</h4>
+                        <div class="space-y-3">
+                            <button onclick="this.classList.add('bg-error-container', 'text-on-error-container'); document.getElementById('wrong-msg').classList.remove('hidden')" class="w-full text-left p-3 rounded-xl border border-outline-variant hover:bg-surface-container transition-colors">A) 2 horas al día</button>
+                            <button onclick="this.classList.add('bg-secondary-container', 'text-on-secondary-container'); document.getElementById('correct-msg').classList.remove('hidden')" class="w-full text-left p-3 rounded-xl border border-outline-variant hover:bg-surface-container transition-colors">B) Solo 10 minutos</button>
+                            <button onclick="this.classList.add('bg-error-container', 'text-on-error-container'); document.getElementById('wrong-msg').classList.remove('hidden')" class="w-full text-left p-3 rounded-xl border border-outline-variant hover:bg-surface-container transition-colors">C) Solo fines de semana</button>
+                        </div>
+                        <p id="correct-msg" class="hidden mt-4 text-secondary font-bold text-sm">¡Correcto! La consistencia de 10 min es mejor que largas sesiones esporádicas.</p>
+                        <p id="wrong-msg" class="hidden mt-4 text-error font-bold text-sm">Casi, pero la respuesta es 10 minutos constantes.</p>
+                    </div>
+                    <div class="absolute -bottom-4 -right-4 w-64 h-64 bg-primary/20 rounded-full blur-3xl"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-surface-container-high dark:bg-surface-container-lowest w-full">
+        <div class="w-full px-gutter py-stack-lg flex flex-col md:flex-row justify-between items-center max-w-[1200px] mx-auto border-t border-primary/5">
+            <div class="flex flex-col gap-4 items-center md:items-start mb-8 md:mb-0">
+                <span class="font-headline-md text-headline-md font-bold text-on-surface dark:text-on-surface-variant">Mi Poli Sin Estrés</span>
+                <p class="text-on-surface-variant text-body-md max-w-xs text-center md:text-left">Un proyecto de bienestar para la formación integral politécnica.</p>
+            </div>
+            
+            <div class="flex flex-col gap-6 items-center md:items-end">
+                <div class="flex gap-8">
+                    <a href="#" class="text-on-surface-variant hover:text-secondary transition-colors font-body-md text-body-md">Privacidad</a>
+                    <a href="#" class="text-on-surface-variant hover:text-secondary transition-colors font-body-md text-body-md">Términos</a>
+                    <a href="#" class="text-on-surface-variant hover:text-secondary transition-colors font-body-md text-body-md">Contacto</a>
+                </div>
+                <div class="flex gap-4">
+                    <a href="#" class="w-10 h-10 rounded-full bg-white flex items-center justify-center text-primary shadow-sm hover-lift"><span class="material-symbols-outlined">share</span></a>
+                    <a href="#" class="w-10 h-10 rounded-full bg-white flex items-center justify-center text-primary shadow-sm hover-lift"><span class="material-symbols-outlined">mail</span></a>
+                </div>
+                <p class="text-on-surface-variant font-label-sm text-label-sm">© 2026 Mi Poli Sin Estrés. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script class="">
+        // Micro-interaction for smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Intersection Observer for animations
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('opacity-100', 'translate-y-0');
+                    entry.target.classList.remove('opacity-0', 'translate-y-10');
+                }
+            });
+        }, { threshold: 0.1 });
+
+        document.querySelectorAll('section').forEach(section => {
+            section.classList.add('transition-all', 'duration-1000', 'opacity-0', 'translate-</script>
+
+
+
+</body></html>

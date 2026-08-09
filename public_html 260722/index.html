@@ -1,0 +1,322 @@
+﻿<!DOCTYPE html>
+<html lang="es" class="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Poli Sin Estrés</title>
+
+    <link rel="stylesheet" href="assets/css/fonts.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body class="bg-background text-on-surface font-body-md selection:bg-primary-fixed selection:text-on-primary-fixed">
+
+    <!-- Header (TopNavBar) -->
+    <header
+        class="fixed top-0 left-0 right-0 z-50 bg-surface/80 dark:bg-surface-dim/80 backdrop-blur-lg border-b border-primary/10 dark:border-primary-fixed/10 shadow-sm">
+        <div class="max-w-[1200px] mx-auto px-gutter flex justify-between items-center h-20 w-full">
+            <div class="flex items-center gap-4">
+                <div class="flex items-center gap-2">
+                    <a href="https://aldea.uno/mipoli-sin-estres/">
+                        <span class="font-headline-md text-headline-md font-bold text-primary dark:text-primary-fixed">Mi
+                            Poli Sin Estrés</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Desktop Navigation -->
+            <nav class="hidden md:flex items-center gap-8">
+                <a href="index.html"
+                    class="text-primary dark:text-primary-fixed font-bold border-b-2 border-primary dark:border-primary-fixed pb-1 font-body-md text-body-md">Inicio</a>
+                <a href="consecuencias.html"
+                    class="text-on-surface-variant dark:text-on-surface-variant hover:text-primary dark:hover:text-primary-fixed transition-colors hover:translate-y-[-2px] transition-transform duration-200 font-body-md text-body-md">Consecuencias</a>
+                <a href="promocion.html"
+                    class="text-on-surface-variant dark:text-on-surface-variant hover:text-primary dark:hover:text-primary-fixed transition-colors hover:translate-y-[-2px] transition-transform duration-200 font-body-md text-body-md">Promoción
+                    de la Salud</a>
+                <a href="estrategias.html"
+                    class="text-on-surface-variant dark:text-on-surface-variant hover:text-primary dark:hover:text-primary-fixed transition-colors hover:translate-y-[-2px] transition-transform duration-200 font-body-md text-body-md">Estrategias</a>
+                <a href="entretenimiento.html"
+                    class="text-on-surface-variant dark:text-on-surface-variant hover:text-primary dark:hover:text-primary-fixed transition-colors hover:translate-y-[-2px] transition-transform duration-200 font-body-md text-body-md">Entretenimiento</a>
+            </nav>
+
+            <div class="flex items-center gap-4">
+
+                <!-- Hamburger -->
+                <button class="md:hidden p-2 text-on-surface"
+                    onclick="document.getElementById('mobile-menu').classList.toggle('hidden')">
+                    <span class="material-symbols-outlined">menu</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobile-menu"
+            class="hidden md:hidden absolute top-20 left-0 w-full bg-surface border-b border-outline-variant p-gutter flex flex-col gap-4 shadow-lg animate-in slide-in-from-top duration-300">
+            <a href="index.html" class="text-primary font-bold font-body-md text-body-md">Inicio</a>
+            <a href="consecuencias.html" class="text-on-surface-variant font-body-md text-body-md">Consecuencias</a>
+            <a href="promocion.html" class="text-on-surface-variant font-body-md text-body-md">Promoción de la Salud</a>
+            <a href="estrategias.html" class="text-on-surface-variant font-body-md text-body-md">Estrategias</a>
+            <a href="entretenimiento.html" class="text-on-surface-variant font-body-md text-body-md">Entretenimiento</a>
+        </div>
+    </header>
+
+    <main class="pt-20">
+        <!-- Banner / Hero Section -->
+        <section class="relative w-full h-[70vh] min-h-[500px] flex items-center overflow-hidden">
+            <div class="absolute inset-0 z-0">
+                <div class="w-full h-full bg-cover bg-center bg-no-repeat"
+                    style="background-image: url(&quot;assets/images/image_5.jpg&quot;);">
+                </div>
+                <div class="absolute inset-0 bg-gradient-to-r from-surface via-surface/50 to-transparent"></div>
+            </div>
+
+            <div class="relative z-10 max-w-[1200px] mx-auto px-gutter w-full">
+                <div class="max-w-2xl animate-in fade-in slide-in-from-left duration-700">
+                    <h1 class="font-display-lg text-display-lg md:text-display-lg text-primary mb-6">Tu bienestar es el
+                        primer paso para un aprendizaje saludable</h1>
+                    <p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-lg">Encuentra el equilibrio
+                        necesario para destacar en tus estudios sin comprometer tu salud mental.</p>
+                    <a href="estrategias.html"
+                        class="inline-flex items-center gap-2 px-8 py-4 bg-primary text-on-primary rounded-full font-bold shadow-lg hover:translate-y-[-2px] transition-all hover:shadow-xl group">
+                        Descubre cómo manejar tu estrés
+                        <span class="material-symbols-outlined group-hover:translate-x-1 transition-transform"
+                            data-original-icon="arrow_forward">arrow_forward</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Welcome Block -->
+        <section id="content" class="py-stack-lg bg-surface relative overflow-hidden">
+            <div class="max-w-[1200px] mx-auto px-gutter text-center">
+                <div class="flex flex-col items-center gap-4 max-w-3xl mx-auto">
+                    <span
+                        class="inline-block px-4 py-1 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm uppercase tracking-widest">Bienvenido</span>
+                    <h2 class="font-headline-lg text-headline-lg text-soft-navy">Espacio para estudiantes, por
+                        estudiantes.</h2>
+                    <div class="space-y-2 text-on-surface-variant font-body-lg text-body-lg italic opacity-80">
+                        <p class="">Diseñado para acompañarte en tu trayectoria universitaria.</p>
+                        <p class="">Herramientas prácticas para los desafíos diarios.</p>
+                        <p class="">Una comunidad que entiende tus presiones.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Decorative Elements -->
+            <div
+                class="absolute top-0 right-0 -z-10 translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-primary/5 rounded-full blur-[100px]">
+            </div>
+            <div
+                class="absolute bottom-0 left-0 -z-10 -translate-x-1/2 translate-y-1/2 w-[500px] h-[500px] bg-secondary/5 rounded-full blur-[100px]">
+            </div>
+        </section>
+
+        <!-- Bento Grid of 4 Cards -->
+        <section class="py-stack-lg bg-surface-container-low">
+            <div class="max-w-[1200px] mx-auto px-gutter">
+                <div class="grid grid-cols-1 md:grid-cols-12 gap-gutter">
+
+                    <!-- Card 1: Consecuencias (Large Vertical-->
+                    <div
+                        class="md:col-span-4 group relative rounded-3xl overflow-hidden glass-card transition-all duration-500 hover:shadow-xl">
+                        <div class="aspect-[4/5] w-full overflow-hidden">
+                            <img src="assets/images/image_1.jpg"
+                                data-alt="A 3D character render of a stressed university student sitting at a desk overflowing with heavy textbooks and a glowing laptop, clutching their head in exhaustion. The scene is rendered in a semi-realistic 3D avatar style with soft cinematic lighting, predominantly using a professional palette of deep blues and calming greens to maintain a modern light-mode UI aesthetic. The mood is heavy but instructional."
+                                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+                        </div>
+                        <div
+                            class="p-stack-md absolute bottom-0 left-0 w-full bg-gradient-to-t from-black/80 to-transparent text-white">
+                            <h3 class="font-headline-md text-headline-md mb-2">Consecuencias</h3>
+                            <p class="font-body-md text-body-md opacity-90 mb-4">Entiende cómo el estrés afecta tu
+                                cuerpo y mente.</p>
+                            <a href="consecuencias.html"
+                                class="inline-flex items-center gap-2 text-secondary-fixed font-bold hover:gap-3 transition-all">Explorar
+                                <span class="material-symbols-outlined"
+                                    data-original-icon="chevron_right">chevron_right</span></a>
+                        </div>
+                    </div>
+
+                    <!-- Card 2: Promoción de la Salud (Wide Horizontal) -->
+                    <div
+                        class="md:col-span-8 group relative rounded-3xl overflow-hidden glass-card transition-all duration-500 hover:shadow-xl">
+                        <div class="h-64 md:h-full w-full overflow-hidden">
+                            <img src="assets/images/image_6.jpg"
+                                data-alt="A 3D character render of a serene university student practicing mindful deep breathing with eyes closed and a calm facial expression. The style is a semi-realistic 3D avatar with professional studio lighting and a clean, airy background. The visual theme is defined by soft seafoam greens and light blues, creating an empathetic and restorative atmosphere for a youth-oriented health platform."
+                                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+                        </div>
+                        <div
+                            class="p-stack-md absolute top-0 left-0 w-full md:w-1/2 h-full bg-gradient-to-r from-white/95 to-transparent flex flex-col justify-center">
+                            <h3 class="font-headline-md text-headline-md text-primary mb-2">Promoción de la Salud</h3>
+                            <p class="font-body-md text-body-md text-on-surface-variant mb-4">Hábitos que transforman tu
+                                rendimiento académico.</p>
+                            <a href="promocion.html"
+                                class="inline-flex items-center gap-2 text-primary font-bold hover:gap-3 transition-all">Ver
+                                más <span class="material-symbols-outlined"
+                                    data-original-icon="chevron_right">chevron_right</span></a>
+                        </div>
+                    </div>
+
+                    <!-- Card 3: Estrategias (Asymmetric) -->
+                    <div
+                        class="md:col-span-7 group relative rounded-3xl overflow-hidden bg-white border border-primary/10 transition-all duration-500 hover:shadow-xl flex flex-col md:flex-row">
+                        <div class="p-stack-md flex-1 flex flex-col justify-center order-2 md:order-1">
+                            <h3 class="font-headline-md text-headline-md text-primary mb-2">Estrategias</h3>
+                            <p class="font-body-md text-body-md text-on-surface-variant mb-6">Técnicas probadas para
+                                recuperar el control de tu tiempo y energía.</p>
+                            <a href="estrategias.html"
+                                class="w-fit inline-block px-6 py-2 rounded-full border-2 border-primary text-primary font-bold hover:bg-primary hover:text-white transition-colors text-center">Aprender</a>
+                        </div>
+                        <div
+                            class="md:w-1/2 order-1 md:order-2 overflow-hidden bg-lavender-haze flex items-end justify-center pt-8">
+                            <img src="assets/images/image_2.jpg"
+                                data-alt="A collection of semi-realistic 3D character avatars of university students in various states of academic life: one sitting in a lotus meditation pose, another sleeping peacefully, and others celebrating success. The lighting is soft and professional, and the color scheme centers on vibrant blues and seafoam greens. These characters overlap with their containers to create a sense of dynamic movement and energy."
+                                class="w-3/4 object-contain group-hover:-translate-y-4 transition-transform duration-500">
+                        </div>
+                    </div>
+
+                    <!-- Card 4: Entretenimiento (Compact) -->
+                    <div
+                        class="md:col-span-5 group relative rounded-3xl overflow-hidden glass-card transition-all duration-500 hover:shadow-xl flex flex-col">
+                        <div class="p-stack-md bg-secondary-container text-on-secondary-container">
+                            <h3 class="font-headline-md text-headline-md mb-1">Entretenimiento</h3>
+                            <p class="font-label-sm text-label-sm opacity-80 uppercase">Desconecta para Reconectar</p>
+                        </div>
+                        <div class="flex-1 bg-surface-container-highest p-stack-md flex flex-col justify-between">
+                            <p class="font-body-md text-body-md text-on-surface-variant">Juegos y actividades diseñadas
+                                para reducir el cortisol de forma inmediata.</p>
+                            <div class="flex justify-between items-center mt-4">
+                                <div class="flex -space-x-2">
+                                    <div
+                                        class="w-8 h-8 rounded-full bg-primary/20 border-2 border-white flex items-center justify-center">
+                                        <span class="material-symbols-outlined text-xs">joystick</span>
+                                    </div>
+                                    <div
+                                        class="w-8 h-8 rounded-full bg-secondary/20 border-2 border-white flex items-center justify-center">
+                                        <span class="material-symbols-outlined text-xs"
+                                            data-original-icon="music_note">music_note</span>
+                                    </div>
+                                </div>
+                                <a href="entretenimiento.html"
+                                    class="inline-flex items-center gap-2 px-5 py-2 rounded-full bg-primary text-on-primary font-bold group-hover:scale-105 transition-transform">
+                                    Vamos
+                                    <span class="material-symbols-outlined text-sm">rocket_launch</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Impact Data: Callout Block -->
+        <section class="py-stack-lg bg-primary relative overflow-hidden">
+            <div class="max-w-[1200px] mx-auto px-gutter relative z-10">
+                <div class="flex flex-col md:flex-row items-center justify-between gap-stack-md text-on-primary">
+                    <div class="text-center md:text-left">
+                        <h2 class="font-display-lg text-display-lg mb-2">19%</h2>
+                        <p class="font-headline-md text-headline-md opacity-80">de estudiantes enfrentan estrés severo.
+                        </p>
+                        <p class="font-body-md text-body-md opacity-70 mt-2">No tienes que ser parte de esa estadística.
+                            Estamos aquí para ayudar.</p>
+                    </div>
+                    <div
+                        class="w-full md:w-1/3 p-stack-md bg-white/10 backdrop-blur-md rounded-2xl border border-white/20 text-center">
+                        <p class="font-body-lg text-body-lg mb-4">¿Necesitas hablar con alguien hoy?</p>
+                        <a href="https://centromedico.espoch.edu.ec" target="_blank" rel="noopener noreferrer">
+                            <button
+                                class="w-full py-4 rounded-full bg-white text-primary font-bold shadow-lg hover:shadow-xl hover:scale-105 transition-all">Recibir
+                                Apoyo Ahora</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Atmospheric background shapes -->
+            <div
+                class="absolute top-0 right-0 w-64 h-64 bg-secondary/20 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2">
+            </div>
+            <div
+                class="absolute bottom-0 left-0 w-96 h-96 bg-white/5 rounded-full blur-3xl translate-y-1/2 -translate-x-1/2">
+            </div>
+        </section>
+
+        <!-- Newsletter Section -->
+        <section class="py-stack-lg bg-surface">
+            <div class="max-w-[1200px] mx-auto px-gutter">
+                <div
+                    class="glass-card rounded-[40px] p-stack-lg flex flex-col md:flex-row items-center gap-stack-lg border-2 border-primary/5">
+                    <div class="flex-1 text-center md:text-left">
+                        <h3 class="font-headline-lg text-headline-lg text-primary mb-4">Tu esfuerzo de hoy es el éxito
+                            de tu mañana</h3>
+                        <p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl">
+                            Sabemos que el camino universitario puede ser desafiante, pero cada paso que das te acerca a
+                            la meta. No estás solo en este viaje; respira profundo, confía en tu capacidad y recuerda
+                            que tu bienestar es tan importante como tus calificaciones. ¡Sigue adelante, Politécnico!
+                        </p>
+                    </div>
+                    <div class="flex-shrink-0">
+                        <span
+                            class="material-symbols-outlined text-[80px] text-primary/20 select-none">auto_awesome</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-surface-container-high dark:bg-surface-container-lowest border-t border-outline-variant/30">
+        <div
+            class="w-full px-gutter py-stack-lg flex flex-col md:flex-row justify-between items-center max-w-[1200px] mx-auto gap-stack-md">
+            <div class="flex flex-col items-center md:items-start gap-4">
+                <span
+                    class="font-headline-md text-headline-md font-bold text-on-surface dark:text-on-surface-variant">Mi
+                    Poli Sin Estrés</span>
+                <p class="font-label-sm text-label-sm text-on-surface-variant text-center md:text-left max-w-xs">Un
+                    proyecto dedicado a la salud mental estudiantil en la ESPOCH.</p>
+            </div>
+
+            <div class="flex flex-wrap justify-center gap-8">
+                <!--
+                <a href="#"
+                    class="text-on-surface-variant dark:text-outline font-body-md text-body-md hover:text-secondary transition-colors focus:ring-2 focus:ring-primary/20">Privacidad</a>
+                <a href="#"
+                    class="text-on-surface-variant dark:text-outline font-body-md text-body-md hover:text-secondary transition-colors focus:ring-2 focus:ring-primary/20">Términos</a>
+                <a href="#"
+                    class="text-on-surface-variant dark:text-outline font-body-md text-body-md hover:text-secondary transition-colors focus:ring-2 focus:ring-primary/20">Contacto</a>
+                <a href="#"
+                    class="text-on-surface-variant dark:text-outline font-body-md text-body-md hover:text-secondary transition-colors focus:ring-2 focus:ring-primary/20">Newsletter</a>
+                -->
+            </div>
+
+            <div class="flex flex-col items-center md:items-end gap-2">
+                <div class="flex gap-4">
+                    <a href="#"
+                        class="w-10 h-10 rounded-full bg-white dark:bg-surface-container-lowest flex items-center justify-center shadow-sm hover:scale-110 transition-transform">
+                        <span class="material-symbols-outlined text-primary">share</span>
+                    </a>
+                    <a href="#"
+                        class="w-10 h-10 rounded-full bg-white dark:bg-surface-container-lowest flex items-center justify-center shadow-sm hover:scale-110 transition-transform">
+                        <span class="material-symbols-outlined text-primary">chat_bubble</span>
+                    </a>
+                </div>
+                <p class="font-label-sm text-label-sm text-on-surface-variant mt-2">© 2026 Mi Poli Sin Estrés. Todos los
+                    derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script class="">
+        // Simple scroll reveal effect
+        window.addEventListener('scroll', () => {
+            const elements = document.querySelectorAll('.glass-card');
+            elements.forEach(el => {
+                const rect = el.getBoundingClientRect();
+                // Add scroll reveal logic here
+            });
+        });
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,311 @@
+<!DOCTYPE html><html lang="es" class="light"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&amp;family=Hanken+Grotesk:wght@600&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=block" rel="stylesheet"><script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script><script id="tailwind-config">try{
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "surface-container-highest": "#e2e1ee",
+                      "on-secondary-fixed": "#00201d",
+                      "surface-container": "#ededf9",
+                      "on-error-container": "#93000a",
+                      "surface-bright": "#fbf8ff",
+                      "on-tertiary-fixed-variant": "#3f465c",
+                      "stress-alert": "#FF6B6B",
+                      "on-tertiary": "#ffffff",
+                      "on-primary-fixed-variant": "#0037b9",
+                      "on-primary": "#ffffff",
+                      "on-error": "#ffffff",
+                      "tertiary-container": "#60687f",
+                      "surface-tint": "#1c4ee3",
+                      "secondary-fixed-dim": "#5adace",
+                      "on-surface": "#191b24",
+                      "inverse-surface": "#2e3039",
+                      "outline": "#747687",
+                      "on-tertiary-container": "#e3e8ff",
+                      "inverse-on-surface": "#f0effc",
+                      "on-background": "#191b24",
+                      "primary-container": "#2d5aee",
+                      "surface-dim": "#d9d9e5",
+                      "error-container": "#ffdad6",
+                      "soft-navy": "#1E293B",
+                      "on-primary-container": "#e6e8ff",
+                      "primary": "#003fd0",
+                      "outline-variant": "#c4c5d8",
+                      "on-surface-variant": "#434655",
+                      "on-secondary-container": "#007169",
+                      "tertiary-fixed": "#dae2fd",
+                      "surface-container-lowest": "#ffffff",
+                      "lavender-haze": "#EBEBFF",
+                      "error": "#ba1a1a",
+                      "on-primary-fixed": "#001453",
+                      "surface": "#fbf8ff",
+                      "secondary-fixed": "#79f7ea",
+                      "on-secondary-fixed-variant": "#00504a",
+                      "tertiary-fixed-dim": "#bec6e0",
+                      "on-tertiary-fixed": "#131b2e",
+                      "on-secondary": "#ffffff",
+                      "seafoam-light": "#E6FFFA",
+                      "surface-container-low": "#f3f2ff",
+                      "secondary": "#006a63",
+                      "tertiary": "#485066",
+                      "surface-variant": "#e2e1ee",
+                      "primary-fixed": "#dde1ff",
+                      "inverse-primary": "#b8c4ff",
+                      "background": "#fbf8ff",
+                      "secondary-container": "#79f7ea",
+                      "primary-fixed-dim": "#b8c4ff",
+                      "surface-container-high": "#e8e7f3"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.25rem",
+                      "lg": "0.5rem",
+                      "xl": "0.75rem",
+                      "full": "9999px"
+              },
+              "spacing": {
+                      "gutter": "24px",
+                      "base": "8px",
+                      "margin-mobile": "16px",
+                      "container-max": "1200px",
+                      "stack-sm": "12px",
+                      "stack-lg": "48px",
+                      "stack-md": "24px"
+              },
+              "fontFamily": {
+                      "body-md": ["Plus Jakarta Sans"],
+                      "headline-lg": ["Plus Jakarta Sans"],
+                      "headline-md": ["Plus Jakarta Sans"],
+                      "body-lg": ["Plus Jakarta Sans"],
+                      "headline-lg-mobile": ["Plus Jakarta Sans"],
+                      "display-lg": ["Plus Jakarta Sans"],
+                      "label-sm": ["Hanken Grotesk"]
+              },
+              "fontSize": {
+                      "body-md": ["16px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                      "headline-lg": ["32px", {"lineHeight": "1.2", "fontWeight": "700"}],
+                      "headline-md": ["24px", {"lineHeight": "1.3", "fontWeight": "600"}],
+                      "body-lg": ["18px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                      "headline-lg-mobile": ["28px", {"lineHeight": "1.2", "fontWeight": "700"}],
+                      "display-lg": ["48px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "800"}],
+                      "label-sm": ["12px", {"lineHeight": "1", "letterSpacing": "0.05em", "fontWeight": "600"}]
+              }
+            },
+          },
+        }
+    }catch(_e){}</script></head><body class="bg-background text-on-surface font-body-md selection:bg-primary-fixed selection:text-on-primary-fixed">
+
+    <!-- Header (TopNavBar) -->
+    <header class="fixed top-0 left-0 right-0 z-50 bg-surface/80 dark:bg-surface-dim/80 backdrop-blur-lg border-b border-primary/10 dark:border-primary-fixed/10 shadow-sm">
+        <div class="max-w-[1200px] mx-auto px-gutter flex justify-between items-center h-20 w-full">
+            <div class="flex items-center gap-4">
+                <div class="flex items-center gap-2">
+                    <span class="font-headline-md text-headline-md font-bold text-primary dark:text-primary-fixed">Mi Poli Sin Estrés</span>
+                </div>
+            </div>
+            
+            <!-- Desktop Navigation -->
+            <nav class="hidden md:flex items-center gap-8">
+                <a href="#" class="text-primary dark:text-primary-fixed font-bold border-b-2 border-primary dark:border-primary-fixed pb-1 font-body-md text-body-md">Inicio</a>
+                <a href="#" class="text-on-surface-variant dark:text-on-surface-variant hover:text-primary dark:hover:text-primary-fixed transition-colors hover:translate-y-[-2px] transition-transform duration-200 font-body-md text-body-md">Consecuencias</a>
+                <a href="#" class="text-on-surface-variant dark:text-on-surface-variant hover:text-primary dark:hover:text-primary-fixed transition-colors hover:translate-y-[-2px] transition-transform duration-200 font-body-md text-body-md">Promoción de la Salud</a>
+                <a href="#" class="text-on-surface-variant dark:text-on-surface-variant hover:text-primary dark:hover:text-primary-fixed transition-colors hover:translate-y-[-2px] transition-transform duration-200 font-body-md text-body-md">Estrategias</a>
+                <a href="#" class="text-on-surface-variant dark:text-on-surface-variant hover:text-primary dark:hover:text-primary-fixed transition-colors hover:translate-y-[-2px] transition-transform duration-200 font-body-md text-body-md">Entretenimiento</a>
+            </nav>
+
+            <div class="flex items-center gap-4">
+                
+                <!-- Hamburger -->
+                <button class="md:hidden p-2 text-on-surface" onclick="document.getElementById('mobile-menu').classList.toggle('hidden')">
+                    <span class="material-symbols-outlined">menu</span>
+                </button>
+            </div>
+        </div>
+        
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden absolute top-20 left-0 w-full bg-surface border-b border-outline-variant p-gutter flex flex-col gap-4 shadow-lg animate-in slide-in-from-top duration-300">
+            <a href="#" class="text-primary font-bold font-body-md text-body-md">Inicio</a>
+            <a href="#" class="text-on-surface-variant font-body-md text-body-md">Consecuencias</a>
+            <a href="#" class="text-on-surface-variant font-body-md text-body-md">Promoción de la Salud</a>
+            <a href="#" class="text-on-surface-variant font-body-md text-body-md">Estrategias</a>
+            <a href="#" class="text-on-surface-variant font-body-md text-body-md">Entretenimiento</a>
+            <button class="w-full mt-4 px-6 py-3 rounded-full bg-primary text-on-primary font-bold">Entrar</button>
+        </div>
+    </header>
+
+    <main class="pt-20">
+        <!-- Banner / Hero Section -->
+        <section class="relative w-full h-[70vh] min-h-[500px] flex items-center overflow-hidden">
+            <div class="absolute inset-0 z-0">
+                <div class="w-full h-full bg-cover bg-center bg-no-repeat" style="background-image: url(&quot;https://lh3.googleusercontent.com/aida/AP1WRLusCSFN7-y8pIycB6tzhLf-2fKrAZnrOgE1Gpld5Dv2CWN2mbaM7792_GPfQTuZ-d1s04SecIjEmVPlggwVN7bODIToxT2YWu9bWV0x1MSiFuBnfeYv7mz-pu87aGCD4KdW-OGlVpWknHZhRPOMiVgu9AmJd_ihbAZLGVJGuIN382wIebmLHUzJFaLyWH1DsI1rCPFEvlK-W8ZT5E1edECF5ieEZrWl4iJQ1kzsFl_l8An4JwQnHJPWupQ&quot;);"></div>
+                <div class="absolute inset-0 bg-gradient-to-r from-surface via-surface/80 to-transparent"></div>
+            </div>
+            
+            <div class="relative z-10 max-w-[1200px] mx-auto px-gutter w-full">
+                <div class="max-w-2xl animate-in fade-in slide-in-from-left duration-700">
+                    <h1 class="font-display-lg text-display-lg md:text-display-lg text-primary mb-6">Tu bienestar es el primer paso para un aprendizaje saludable</h1>
+                    <p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-lg">Encuentra el equilibrio necesario para destacar en tus estudios sin comprometer tu salud mental.</p>
+                    <a href="#content" class="inline-flex items-center gap-2 px-8 py-4 bg-primary text-on-primary rounded-full font-bold shadow-lg hover:translate-y-[-2px] transition-all hover:shadow-xl group">
+                        Descubre cómo manejar tu estrés
+                        <span class="material-symbols-outlined group-hover:translate-x-1 transition-transform" data-original-icon="arrow_forward">arrow_forward</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Welcome Block -->
+        <section id="content" class="py-stack-lg bg-surface relative overflow-hidden">
+            <div class="max-w-[1200px] mx-auto px-gutter text-center">
+                <div class="flex flex-col items-center gap-4 max-w-3xl mx-auto">
+                    <span class="inline-block px-4 py-1 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm uppercase tracking-widest">Bienvenido</span>
+                    <h2 class="font-headline-lg text-headline-lg text-soft-navy">Espacio para estudiantes, por estudiantes.</h2>
+                    <div class="space-y-2 text-on-surface-variant font-body-lg text-body-lg italic opacity-80">
+                        <p class="">Diseñado para acompañarte en tu trayectoria universitaria.</p>
+                        <p class="">Herramientas prácticas para los desafíos diarios.</p>
+                        <p class="">Una comunidad que entiende tus presiones.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Decorative Elements -->
+            <div class="absolute top-0 right-0 -z-10 translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-primary/5 rounded-full blur-[100px]"></div>
+            <div class="absolute bottom-0 left-0 -z-10 -translate-x-1/2 translate-y-1/2 w-[500px] h-[500px] bg-secondary/5 rounded-full blur-[100px]"></div>
+        </section>
+
+        <!-- Bento Grid of 4 Cards -->
+        <section class="py-stack-lg bg-surface-container-low">
+            <div class="max-w-[1200px] mx-auto px-gutter">
+                <div class="grid grid-cols-1 md:grid-cols-12 gap-gutter">
+                    
+                    <!-- Card 1: Consecuencias (Large Vertical-->
+                    <div class="md:col-span-4 group relative rounded-3xl overflow-hidden glass-card transition-all duration-500 hover:shadow-xl">
+                        <div class="aspect-[4/5] w-full overflow-hidden">
+                            <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuBMRmhc_PB1Df7Fg4qBWrYkMPRInpVfQ5Hl77Dq1c2O0oohLMGHEygLn5MSbNsnNYcCokH9_52Q_bIDLWp_Dh7Jv-i3jicxy6vxqFFPEsbXI8pGI3YDVXmL7AkPaGwFhl-5eJIjoQ16Kedae34gyPGSxeuPgo3GFBRscD0xTlWrXE4b69gxgKDkso7o4oXIkBaF9A2GYQLETORpdBx4cmd3AdoaIE5RVCLUjIeAJzSuWVc8bBj5siAWhxJ8MQ8LdR0vWVUXLDbUDaQ" data-alt="A 3D character render of a stressed university student sitting at a desk overflowing with heavy textbooks and a glowing laptop, clutching their head in exhaustion. The scene is rendered in a semi-realistic 3D avatar style with soft cinematic lighting, predominantly using a professional palette of deep blues and calming greens to maintain a modern light-mode UI aesthetic. The mood is heavy but instructional." class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+                        </div>
+                        <div class="p-stack-md absolute bottom-0 left-0 w-full bg-gradient-to-t from-black/80 to-transparent text-white">
+                            <h3 class="font-headline-md text-headline-md mb-2">Consecuencias</h3>
+                            <p class="font-body-md text-body-md opacity-90 mb-4">Entiende cómo el estrés afecta tu cuerpo y mente.</p>
+                            <a href="#" class="inline-flex items-center gap-2 text-secondary-fixed font-bold hover:gap-3 transition-all">Explorar <span class="material-symbols-outlined" data-original-icon="chevron_right">chevron_right</span></a>
+                        </div>
+                    </div>
+
+                    <!-- Card 2: Promoción de la Salud (Wide Horizontal) -->
+                    <div class="md:col-span-8 group relative rounded-3xl overflow-hidden glass-card transition-all duration-500 hover:shadow-xl">
+                        <div class="h-64 md:h-full w-full overflow-hidden">
+                            <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDZJCgmUL0r2Ub3QtfFXO_5nRlmHN4j0RQDqCmwTFyIvOPwJ1PaJwJsNlRl22tw9CWHFNSVyezeKcwIX95gyZKsGyaJYVISyQ36bgntl8AsZ3Ltt4vVwwJ5QHHG6Dwr-9i4OW6f8JSyf11vWm8m4j1Z74Fb9jxRs4utrJHw9gIvoQaeQtVD9t5rt5RlbwWfefKhyf8iXC22PQvPUgW_BPED6aZ6xmP2nNCqA-MAylTREPWPOVm_qXXlY86Ir8psV1wl8XrIi5yYijA" data-alt="A 3D character render of a serene university student practicing mindful deep breathing with eyes closed and a calm facial expression. The style is a semi-realistic 3D avatar with professional studio lighting and a clean, airy background. The visual theme is defined by soft seafoam greens and light blues, creating an empathetic and restorative atmosphere for a youth-oriented health platform." class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+                        </div>
+                        <div class="p-stack-md absolute top-0 left-0 w-full md:w-1/2 h-full bg-gradient-to-r from-white/95 to-transparent flex flex-col justify-center">
+                            <h3 class="font-headline-md text-headline-md text-primary mb-2">Promoción de la Salud</h3>
+                            <p class="font-body-md text-body-md text-on-surface-variant mb-4">Hábitos que transforman tu rendimiento académico.</p>
+                            <a href="#" class="inline-flex items-center gap-2 text-primary font-bold hover:gap-3 transition-all">Ver más <span class="material-symbols-outlined" data-original-icon="chevron_right">chevron_right</span></a>
+                        </div>
+                    </div>
+
+                    <!-- Card 3: Estrategias (Asymmetric) -->
+                    <div class="md:col-span-7 group relative rounded-3xl overflow-hidden bg-white border border-primary/10 transition-all duration-500 hover:shadow-xl flex flex-col md:flex-row">
+                        <div class="p-stack-md flex-1 flex flex-col justify-center order-2 md:order-1">
+                            <h3 class="font-headline-md text-headline-md text-primary mb-2">Estrategias</h3>
+                            <p class="font-body-md text-body-md text-on-surface-variant mb-6">Técnicas probadas para recuperar el control de tu tiempo y energía.</p>
+                            <button class="w-fit px-6 py-2 rounded-full border-2 border-primary text-primary font-bold hover:bg-primary hover:text-white transition-colors">Aprender</button>
+                        </div>
+                        <div class="md:w-1/2 order-1 md:order-2 overflow-hidden bg-lavender-haze flex items-end justify-center pt-8">
+                            <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuD1wNhFBPkLFuX7j1QlJYofpieCorHfNClHJpkaFfZr47urKPkh_pWjFU2yXxUo8CtXC6UZ-H8ZVc3d-gzqtspiBJQTtyqnXtFwGFNYcx7N-fw949t7mDv1r8OI19fw5EPC5dEkjL02UsLCAfU-i1Ih2VExXF12cHUEnThFBRCQjd5bDydibUL0nRx_fYA0kaa9VDaxVya-JBGZKiK_FFrUVlUPx6WSmtHuf0R6LiEITCF6QB9H0xpwwuYNp8DK-oQdcRAxbg6q8ao" data-alt="A collection of semi-realistic 3D character avatars of university students in various states of academic life: one sitting in a lotus meditation pose, another sleeping peacefully, and others celebrating success. The lighting is soft and professional, and the color scheme centers on vibrant blues and seafoam greens. These characters overlap with their containers to create a sense of dynamic movement and energy." class="w-3/4 object-contain group-hover:-translate-y-4 transition-transform duration-500">
+                        </div>
+                    </div>
+
+                    <!-- Card 4: Entretenimiento (Compact) -->
+                    <div class="md:col-span-5 group relative rounded-3xl overflow-hidden glass-card transition-all duration-500 hover:shadow-xl flex flex-col">
+                        <div class="p-stack-md bg-secondary-container text-on-secondary-container">
+                            <h3 class="font-headline-md text-headline-md mb-1">Entretenimiento</h3>
+                            <p class="font-label-sm text-label-sm opacity-80 uppercase">Desconecta para Reconectar</p>
+                        </div>
+                        <div class="flex-1 bg-surface-container-highest p-stack-md flex flex-col justify-between">
+                            <p class="font-body-md text-body-md text-on-surface-variant">Juegos y actividades diseñadas para reducir el cortisol de forma inmediata.</p>
+                            <div class="flex justify-between items-center mt-4">
+                                <div class="flex -space-x-2">
+                                    <div class="w-8 h-8 rounded-full bg-primary/20 border-2 border-white flex items-center justify-center"><span class="material-symbols-outlined text-xs">joystick</span></div>
+                                    <div class="w-8 h-8 rounded-full bg-secondary/20 border-2 border-white flex items-center justify-center"><span class="material-symbols-outlined text-xs" data-original-icon="music_note">music_note</span></div>
+                                </div>
+                                <a href="#" class="material-symbols-outlined text-primary group-hover:scale-125 transition-transform">rocket_launch</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Impact Data: Callout Block -->
+        <section class="py-stack-lg bg-primary relative overflow-hidden">
+            <div class="max-w-[1200px] mx-auto px-gutter relative z-10">
+                <div class="flex flex-col md:flex-row items-center justify-between gap-stack-md text-on-primary">
+                    <div class="text-center md:text-left">
+                        <h2 class="font-display-lg text-display-lg mb-2">19%</h2>
+                        <p class="font-headline-md text-headline-md opacity-80">de estudiantes enfrentan estrés severo.</p>
+                        <p class="font-body-md text-body-md opacity-70 mt-2">No tienes que ser parte de esa estadística. Estamos aquí para ayudar.</p>
+                    </div>
+                    <div class="w-full md:w-1/3 p-stack-md bg-white/10 backdrop-blur-md rounded-2xl border border-white/20 text-center">
+                        <p class="font-body-lg text-body-lg mb-4">¿Necesitas hablar con alguien hoy?</p>
+                        <button class="w-full py-4 rounded-full bg-white text-primary font-bold shadow-lg hover:shadow-xl hover:scale-105 transition-all">Recibir Apoyo Ahora</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Atmospheric background shapes -->
+            <div class="absolute top-0 right-0 w-64 h-64 bg-secondary/20 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2"></div>
+            <div class="absolute bottom-0 left-0 w-96 h-96 bg-white/5 rounded-full blur-3xl translate-y-1/2 -translate-x-1/2"></div>
+        </section>
+
+        <!-- Newsletter Section -->
+        <section class="py-stack-lg bg-surface">
+            <div class="max-w-[1200px] mx-auto px-gutter">
+                <div class="glass-card rounded-[40px] p-stack-lg flex flex-col md:flex-row items-center gap-stack-lg border-2 border-primary/5">
+                    <div class="flex-1 text-center md:text-left">
+                        <h3 class="font-headline-lg text-headline-lg text-primary mb-4">Consejos semanales en tu bandeja</h3>
+                        <p class="font-body-md text-body-md text-on-surface-variant max-w-md">Únete a nuestra comunidad y recibe estrategias prácticas, rutinas de relajación y noticias de la ESPOCH.</p>
+                    </div>
+                    <div class="flex-1 w-full max-w-md">
+                        <form class="flex flex-col sm:flex-row gap-4" onsubmit="event.preventDefault(); alert('¡Gracias por suscribirte!');">
+                            <input type="email" placeholder="tu-email@espoch.edu.ec" required="" class="flex-1 px-6 py-4 rounded-full bg-surface-container-low border-0 focus:ring-2 focus:ring-primary/20 text-on-surface font-body-md">
+                            <button type="submit" class="px-8 py-4 bg-secondary text-on-secondary rounded-full font-bold shadow-md hover:translate-y-[-2px] transition-all">Suscribirme</button>
+                        </form>
+                        <p class="text-center md:text-left font-label-sm text-label-sm text-outline mt-4">Respetamos tu privacidad. Sin spam, solo bienestar.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-surface-container-high dark:bg-surface-container-lowest border-t border-outline-variant/30">
+        <div class="w-full px-gutter py-stack-lg flex flex-col md:flex-row justify-between items-center max-w-[1200px] mx-auto gap-stack-md">
+            <div class="flex flex-col items-center md:items-start gap-4">
+                <span class="font-headline-md text-headline-md font-bold text-on-surface dark:text-on-surface-variant">Mi Poli Sin Estrés</span>
+                <p class="font-label-sm text-label-sm text-on-surface-variant text-center md:text-left max-w-xs">Un proyecto dedicado a la salud mental estudiantil en la ESPOCH.</p>
+            </div>
+            
+            <div class="flex flex-wrap justify-center gap-8">
+                <a href="#" class="text-on-surface-variant dark:text-outline font-body-md text-body-md hover:text-secondary transition-colors focus:ring-2 focus:ring-primary/20">Privacidad</a>
+                <a href="#" class="text-on-surface-variant dark:text-outline font-body-md text-body-md hover:text-secondary transition-colors focus:ring-2 focus:ring-primary/20">Términos</a>
+                <a href="#" class="text-on-surface-variant dark:text-outline font-body-md text-body-md hover:text-secondary transition-colors focus:ring-2 focus:ring-primary/20">Contacto</a>
+                <a href="#" class="text-on-surface-variant dark:text-outline font-body-md text-body-md hover:text-secondary transition-colors focus:ring-2 focus:ring-primary/20">Newsletter</a>
+            </div>
+
+            <div class="flex flex-col items-center md:items-end gap-2">
+                <div class="flex gap-4">
+                    <a href="#" class="w-10 h-10 rounded-full bg-white dark:bg-surface-container-lowest flex items-center justify-center shadow-sm hover:scale-110 transition-transform">
+                        <span class="material-symbols-outlined text-primary">share</span>
+                    </a>
+                    <a href="#" class="w-10 h-10 rounded-full bg-white dark:bg-surface-container-lowest flex items-center justify-center shadow-sm hover:scale-110 transition-transform">
+                        <span class="material-symbols-outlined text-primary">chat_bubble</span>
+                    </a>
+                </div>
+                <p class="font-label-sm text-label-sm text-on-surface-variant mt-2">© 2024 Mi Poli Sin Estrés. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script class="">
+        // Simple scroll reveal effect
+        window.addEventListener('scroll', () => {
+            const elements = document.querySelectorAll('.glass-card');
+            elements.forEach(el => {
+                const rect = el</script></body></html>

@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="es" class="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Poli sin Estrés</title>
+    <link rel="stylesheet" href="assets/css/fonts.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <meta charset="utf-8">
+</head>
+
+<body class="bg-background font-body-md text-on-background selection:bg-primary/20">
+    <!-- Header (TopNavBar) -->
+    <header
+        class="fixed top-0 left-0 right-0 z-50 bg-surface/80 dark:bg-surface-dim/80 backdrop-blur-lg border-b border-primary/10 dark:border-primary-fixed/10 shadow-sm">
+        <div class="max-w-[1200px] mx-auto px-gutter flex justify-between items-center h-20 w-full">
+            <div class="flex items-center gap-4">
+                <div class="flex items-center gap-2">
+                    <img src="assets/images/logo espoch.webp" alt="Logo ESPOCH" class="h-10 w-auto object-contain">
+                    <img src="assets/images/logo promocion salud.webp" alt="Logo Promoción de la Salud"
+                        class="h-10 w-auto object-contain">
+                    <a href="https://aldea.uno/mipoli-sin-estres/">
+                        <span
+                            class="font-headline-md text-headline-md font-bold text-primary dark:text-primary-fixed">Mi
+                            Poli Sin Estrés</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Desktop Navigation -->
+            <nav class="hidden md:flex items-center gap-8">
+                <a href="index.html"
+                    class="text-on-surface-variant dark:text-on-surface-variant hover:text-primary dark:hover:text-primary-fixed transition-colors hover:translate-y-[-2px] transition-transform duration-200 font-body-md text-body-md">Inicio</a>
+                <a href="consecuencias.html"
+                    class="text-on-surface-variant dark:text-on-surface-variant hover:text-primary dark:hover:text-primary-fixed transition-colors hover:translate-y-[-2px] transition-transform duration-200 font-body-md text-body-md">Consecuencias</a>
+                <a href="promocion.html"
+                    class="text-on-surface-variant dark:text-on-surface-variant hover:text-primary dark:hover:text-primary-fixed transition-colors hover:translate-y-[-2px] transition-transform duration-200 font-body-md text-body-md">Promoción
+                    de la Salud</a>
+                <a href="estrategias.html"
+                    class="text-primary dark:text-primary-fixed font-bold border-b-2 border-primary dark:border-primary-fixed pb-1 font-body-md text-body-md">Estrategias</a>
+                <a href="entretenimiento.html"
+                    class="text-on-surface-variant dark:text-on-surface-variant hover:text-primary dark:hover:text-primary-fixed transition-colors hover:translate-y-[-2px] transition-transform duration-200 font-body-md text-body-md">Entretenimiento</a>
+            </nav>
+
+            <div class="flex items-center gap-4">
+
+                <!-- Hamburger -->
+                <button class="md:hidden p-2 text-on-surface"
+                    onclick="document.getElementById('mobile-menu').classList.toggle('hidden')">
+                    <span class="material-symbols-outlined">menu</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobile-menu"
+            class="hidden md:hidden absolute top-20 left-0 w-full bg-surface border-b border-outline-variant p-gutter flex flex-col gap-4 shadow-lg animate-in slide-in-from-top duration-300">
+            <a href="index.html" class="text-on-surface-variant font-body-md text-body-md">Inicio</a>
+            <a href="consecuencias.html" class="text-on-surface-variant font-body-md text-body-md">Consecuencias</a>
+            <a href="promocion.html" class="text-on-surface-variant font-body-md text-body-md">Promoción de la Salud</a>
+            <a href="estrategias.html" class="text-primary font-bold font-body-md text-body-md">Estrategias</a>
+            <a href="entretenimiento.html" class="text-on-surface-variant font-body-md text-body-md">Entretenimiento</a>
+        </div>
+    </header>
+    <main class="max-w-[1200px] mx-auto px-gutter py-stack-lg relative overflow-hidden">
+        <!-- Hero Section with 3D Character -->
+        <section class="grid grid-cols-1 md:grid-cols-12 gap-stack-md items-center mb-stack-lg">
+            <div class="md:col-span-7 space-y-stack-sm relative z-10">
+                <span
+                    class="inline-block px-3 py-1 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm uppercase tracking-wider">
+                    Herramientas Prácticas
+                </span>
+                <h1 class="font-display-lg text-display-lg text-primary">Toma el control de tu calma</h1>
+                <p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl">
+                    Aprende técnicas validadas científicamente para reducir el estrés universitario.
+                </p>
+                <p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl">
+                    No se trata de eliminar la presión, sino de aprender a navegarla con éxito.
+                </p>
+                <div class="flex gap-4 pt-4">
+                    <!--
+<button class="bg-primary text-on-primary px-8 py-3 rounded-xl font-bold shadow-lg hover:translate-y-[-2px] transition-all flex items-center gap-2">
+<span class="material-symbols-outlined" data-original-icon="play_circle">play_circle</span>
+                        Guía de Relajación
+                    </button>
+<button class="bg-surface-container-highest text-primary px-8 py-3 rounded-xl font-bold hover:translate-y-[-2px] transition-all">
+                        Ver Ejercicios
+                    </button>
+                -->
+                </div>
+            </div>
+            <div class="md:col-span-5 relative flex justify-center items-center">
+                <div class="absolute w-72 h-72 bg-primary/5 rounded-full blur-3xl -z-10"></div>
+                <div class="relative w-full max-w-sm animate-float">
+                    <!-- Male character meditating or female sleeping from composite image -->
+                    <img src="assets/images/image_2.jpg" alt="Estudiante universitario meditando"
+                        class="w-full h-auto drop-shadow-2xl">
+                </div>
+            </div>
+        </section>
+        <!-- Strategy Grid (Bento Layout) -->
+        <section class="grid grid-cols-1 md:grid-cols-4 gap-6 mb-stack-lg">
+            <!-- Técnica Pomodoro (Large Card) -->
+            <div
+                class="md:col-span-2 glass-card p-8 rounded-3xl flex flex-col justify-between hover:border-primary/30 transition-all group">
+                <div>
+                    <div class="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center text-primary mb-6">
+                        <span class="material-symbols-outlined">timer</span>
+                    </div>
+                    <h3 class="font-headline-md text-headline-md mb-2">Método Pomodoro</h3>
+                    <p class="text-on-surface-variant mb-6">Estudia intensamente 25 minutos y descansa 5. Repite 4 veces
+                        y toma un descanso largo de 15 minutos.</p>
+                </div>
+                <div class="flex items-center gap-3 bg-primary/5 p-4 rounded-2xl">
+                    <span class="material-symbols-outlined text-primary"
+                        style="font-variation-settings: &quot;FILL&quot; 1;"
+                        data-original-icon="check_circle">check_circle</span>
+                    <span class="font-label-sm text-label-sm font-bold text-primary">RECOMENDADO PARA EXÁMENES</span>
+                </div>
+            </div>
+            <!-- Respiración (Tall Card) -->
+            <div
+                class="md:col-span-1 glass-card p-8 rounded-3xl flex flex-col justify-between hover:border-primary/30 transition-all">
+                <div class="w-12 h-12 bg-secondary/10 rounded-xl flex items-center justify-center text-secondary mb-6">
+                    <span class="material-symbols-outlined">air</span>
+                </div>
+                <h3 class="font-headline-md text-headline-md mb-2">Respiración<br>&nbsp;4-7-8</h3>
+                <p class="text-on-surface-variant text-sm">Inhala 4s, mantén 7s y exhala 8s. Reduce el cortisol al
+                    instante.</p>
+
+            </div>
+            <!-- Checklist (Tall Card) -->
+            <div
+                class="md:col-span-1 bg-primary p-8 rounded-3xl text-on-primary flex flex-col justify-between shadow-xl">
+                <h3 class="font-headline-md text-headline-md mb-4">Checklist de Noche</h3>
+                <ul class="space-y-4">
+                    <li class="flex items-center gap-3 font-body-md text-sm">
+                        <span class="material-symbols-outlined" data-original-icon="check_box">check_box</span>
+                        Sin pantallas -30 min
+                    </li>
+                    <li class="flex items-center gap-3 font-body-md text-sm">
+                        <span class="material-symbols-outlined" data-original-icon="check_box">check_box</span>
+                        Planificar mañana
+                    </li>
+                    <li class="flex items-center gap-3 font-body-md text-sm">
+                        <span class="material-symbols-outlined" data-original-icon="check_box">check_box</span>
+                        Vaso de agua
+                    </li>
+                    <li class="flex items-center gap-3 font-body-md text-sm opacity-60">
+                        <span class="material-symbols-outlined"
+                            data-original-icon="check_box_outline_blank">check_box_outline_blank</span>
+                        Lectura ligera
+                    </li>
+                </ul>
+                <!--
+                <div class="mt-6 pt-4 border-t border-on-primary/20 text-center font-label-sm">
+                    75% COMPLETADO HOY
+                </div>
+                -->
+            </div>
+            <!-- Health Promotion (Wide Card) -->
+            <div
+                class="md:col-span-4 glass-card p-8 rounded-3xl flex flex-col md:flex-row items-center gap-8 hover:border-primary/30 transition-all">
+                <div class="flex-shrink-0 w-24 h-24 bg-lavender-haze rounded-full flex items-center justify-center">
+                    <span class="material-symbols-outlined text-4xl text-primary"
+                        data-original-icon="psychology">psychology</span>
+                </div>
+                <div class="flex-grow">
+                    <h3 class="font-headline-md text-headline-md mb-2">¿Sientes que no es suficiente?</h3>
+                    <p class="text-on-surface-variant">Si el estrés se vuelve abrumador, recuerda que la ESPOCH cuenta
+                        con servicios de bienestar estudiantil gratuitos para ti.</p>
+                </div>
+                <a href="https://centromedico.espoch.edu.ec" target="_blank" rel="noopener noreferrer">
+                    <button
+                        class="whitespace-nowrap px-8 py-4 border-2 border-primary text-primary rounded-2xl font-bold hover:bg-primary hover:text-on-primary transition-all">
+                        Hablar con un Profesional
+                    </button>
+                </a>
+            </div>
+        </section>
+
+        <!-- YouTube Video Section -->
+        <section class="py-stack-lg bg-surface border-t border-outline-variant/30">
+            <div class="max-w-[1200px] mx-auto px-gutter">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                    <div class="order-2 lg:order-1">
+                        <div
+                            class="inline-block px-4 py-1 mb-4 rounded-full bg-primary-container text-on-primary-container font-label-sm text-label-sm uppercase tracking-widest">
+                            Técnicas</div>
+                        <h2 class="font-display-md text-display-md text-primary mb-6">Técnicas para el afrontamiento del
+                            estrés académico</h2>
+                        <p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
+                            A veces, dar el primer paso es el más difícil, pero cada pequeña acción cuenta. Dedica unos
+                            minutos a explorar este recurso audiovisual; esperamos que te brinde nuevas perspectivas y
+                            herramientas prácticas para encontrar tu equilibrio y afrontar los desafíos diarios con
+                            mayor serenidad. ¡Recuerda que no estás solo y tienes la capacidad de superarlo!
+                        </p>
+                    </div>
+
+                    <div
+                        class="order-1 lg:order-2 rounded-3xl overflow-hidden shadow-xl border border-outline-variant/20 aspect-video bg-surface-container-highest">
+                        <iframe width="560" height="315"
+                            src="https://www.youtube.com/embed/JBO8LYAaDAk?si=A8UqxOzZbWs6BwfI"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interactive Tips Section -->
+        <section
+            class="py-stack-md bg-surface-container-low rounded-[40px] px-8 md:px-12 mb-stack-lg relative overflow-hidden">
+
+            <div class="relative z-10">
+                <h2 class="font-headline-lg text-headline-lg mb-8 text-center">Micro-hábitos de Bienestar</h2>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <!-- Tip Item -->
+                    <div
+                        class="bg-white/60 p-6 rounded-2xl border border-white flex gap-4 hover:translate-y-[-4px] transition-transform shadow-sm">
+                        <span class="material-symbols-outlined text-primary"
+                            data-original-icon="dark_mode">dark_mode</span>
+                        <div>
+                            <h4 class="font-bold mb-1">Sueño de Calidad</h4>
+                            <p class="text-sm text-on-surface-variant">Duerme al menos 7-8 horas para consolidar lo
+                                aprendido en clase.</p>
+                        </div>
+                    </div>
+                    <!-- -->
+                    <div
+                        class="bg-white/60 p-6 rounded-2xl border border-white flex gap-4 hover:translate-y-[-4px] transition-transform shadow-sm">
+                        <span class="material-symbols-outlined text-secondary">water_drop</span>
+                        <div>
+                            <h4 class="font-bold mb-1">Hidratación Cerebral</h4>
+                            <p class="text-sm text-on-surface-variant">El cerebro es 75% agua. Beber agua mejora tu
+                                concentración.</p>
+                        </div>
+                    </div>
+                    <!-- Tip Item -->
+                    <div
+                        class="bg-white/60 p-6 rounded-2xl border border-white flex gap-4 hover:translate-y-[-4px] transition-transform shadow-sm">
+                        <span class="material-symbols-outlined text-stress-alert">directions_run</span>
+                        <div>
+                            <h4 class="font-bold mb-1">Movimiento 5m</h4>
+                            <p class="text-sm text-on-surface-variant">Camina o estírate 5 min después de cada hora de
+                                estudio.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Sección de Curiosidades y Retroalimentación -->
+        <section class="py-stack-lg bg-surface-container-low border-t border-outline-variant/30">
+            <div class="max-w-[1200px] mx-auto px-gutter">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+
+                    <!-- Datos curiosos -->
+                    <div
+                        class="bg-surface rounded-3xl p-8 shadow-sm hover:shadow-md transition-shadow border border-outline-variant/20">
+                        <div class="flex items-center gap-3 mb-6">
+                            <div
+                                class="w-12 h-12 rounded-full bg-tertiary/10 flex items-center justify-center text-tertiary">
+                                <span class="material-symbols-outlined">lightbulb</span>
+                            </div>
+                            <h2 class="font-headline-md text-headline-md text-soft-navy">Datos curiosos</h2>
+                        </div>
+                        <ul class="space-y-4 font-body-md text-body-md text-on-surface-variant">
+                            <li class="flex gap-3 items-start">
+                                <span
+                                    class="material-symbols-outlined text-tertiary text-[20px] mt-0.5">psychology_alt</span>
+                                <span>Investigaciones señalan que entre 10 y 15 minutos diarios de práctica de
+                                    mindfulness son suficientes para notar mejoras en la concentración; incluso dos
+                                    semanas de práctica breve y constante generan cambios medibles en la memoria de
+                                    trabajo (Mrazek et al., 2013).</span>
+                            </li>
+                            <li class="flex gap-3 items-start">
+                                <span
+                                    class="material-symbols-outlined text-tertiary text-[20px] mt-0.5">psychology_alt</span>
+                                <span>La técnica de respiración 4-7-8 es utilizada como recurso rápido de
+                                    autorregulación y puede aplicarse en cualquier lugar, incluso segundos antes de
+                                    entrar a un examen.</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Preguntas de retroalimentación -->
+                    <div
+                        class="bg-surface rounded-3xl p-8 shadow-sm hover:shadow-md transition-shadow border border-outline-variant/20">
+                        <div class="flex items-center gap-3 mb-6">
+                            <div
+                                class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary">
+                                <span class="material-symbols-outlined">forum</span>
+                            </div>
+                            <h2 class="font-headline-md text-headline-md text-soft-navy">Preguntas de retroalimentación
+                            </h2>
+                        </div>
+                        <ul class="space-y-4 font-body-md text-body-md text-on-surface-variant">
+                            <li class="flex gap-3 items-start">
+                                <span class="material-symbols-outlined text-primary text-[20px] mt-0.5">help</span>
+                                <span>Practica ahora mismo 3 respiraciones profundas (inhala 4 segundos, retén 7, exhala
+                                    8). ¿Notaste algún cambio en tu cuerpo o en tu nivel de tensión?</span>
+                            </li>
+                            <li class="flex gap-3 items-start">
+                                <span class="material-symbols-outlined text-primary text-[20px] mt-0.5">help</span>
+                                <span>De las 4 estrategias (respiración, organización del tiempo, pausas activas,
+                                    mindfulness), ¿cuál se adapta mejor a tu rutina diaria y por qué?</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer class="bg-surface-container-high dark:bg-surface-container-lowest w-full px-gutter py-stack-lg">
+        <div class="max-w-[1200px] mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
+            <div class="font-headline-md text-headline-md font-bold text-on-surface dark:text-on-surface-variant">
+                Mi Poli Sin Estrés
+            </div>
+            <div class="flex gap-8">
+                <!--
+                <a class="text-on-surface-variant dark:text-outline hover:text-secondary dark:hover:text-secondary-fixed transition-colors font-body-md text-body-md"
+                    href="#">Privacidad</a>
+                <a class="text-on-surface-variant dark:text-outline hover:text-secondary dark:hover:text-secondary-fixed transition-colors font-body-md text-body-md"
+                    href="#">Términos</a>
+                <a class="text-on-surface-variant dark:text-outline hover:text-secondary dark:hover:text-secondary-fixed transition-colors font-body-md text-body-md"
+                    href="#">Contacto</a>
+                <a class="text-on-surface-variant dark:text-outline hover:text-secondary dark:hover:text-secondary-fixed transition-colors font-body-md text-body-md"
+                    href="#">Newsletter</a>
+                -->
+            </div>
+            <p class="font-label-sm text-label-sm text-on-surface-variant opacity-60">
+                © 2026 Mi Poli Sin Estrés. Todos los derechos reservados.
+            </p>
+        </div>
+    </footer>
+    <!-- FAB for Quick Stress Check -->
+    <button
+        class="fixed bottom-8 right-8 w-16 h-16 bg-primary text-on-primary rounded-full shadow-2xl flex items-center justify-center hover:scale-110 active:scale-95 transition-all z-40 group">
+        <span class="material-symbols-outlined text-3xl">add_reaction</span>
+    </button>
+
+</body>
+
+</html>
