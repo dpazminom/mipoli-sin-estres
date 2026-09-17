@@ -1,29 +1,40 @@
-{5} Menú
-	Inicio
-	Identifica las Señales (antes era Consecuencias)
-	Consecuencias (nueva)
-	Métodos de Prevención (antes era Promoción)
-	Aprende a Relajarte (antes Estrategias)
+# [x] {5} Menú
+	- Inicio
+	- Identifica las Señales (antes era Consecuencias)
+	- Consecuencias (nueva)
+	- Métodos de Prevención (antes era Promoción)
+	- Aprende a Relajarte (antes Estrategias)
 
-Página Inicio
-	1. Mover sección Causas a la segunda página
-	2 .Eliminar sintomas y Factores de Riesgo
-	--------------------
-{5+3}-- Mueve la sección "Causas" y "Factores de riesgo"de "index.html" a "identifica-senales.html", justo antes de las sección "Síntomas del Estrés Académico". Colocalos en dos columnas manteniendo el diseño original y en concordancia a la nueva página.  Modifica las imágenes, para que tengan una adecuada visibilidad y coherencia en el diseño.
+# Página Inicio
 
--- Con los personajes que elijas de la imagen adjunta crea 1 imágen de tamaño 689x489 pixeles que no contenga letras, frases o palabras. 
+## [x] {5+3} 1. Mover sección Causas a la segunda página (Identifica las Señales)
+
+Mueve la sección "Causas" y "Factores de riesgo"de "index.html" a "identifica-senales.html", justo antes de las sección "Síntomas del Estrés Académico". Colocalos en dos columnas manteniendo el diseño original y en concordancia a la nueva página.  Modifica las imágenes, para que tengan una adecuada visibilidad y coherencia en el diseño.
+
+Con los personajes que elijas de la imagen adjunta crea 1 imágen de tamaño 689x489 pixeles que no contenga letras, frases o palabras.
+
 Factores de riesgo para estress academico:
 - Ser mujer: varios estudios reportan mayores niveles de estrés académico en estudiantes de sexo femenino.
 - Trabajar y estudiar simultáneamente.
 - Bajo apoyo familiar o institucional y escasas estrategias de afrontamiento.
 - Exposición prolongada: exposición prolongada a la sobrecarga académica, que puede alterar de forma sostenida el eje hipotálamo-hipófisis-adrenal (eje HPA), el principal mediador fisiológico del estrés crónico.
-	-------------
-	3. Eliminar Tu esfuerzo de hoy....
-	4. Preguntas interactivas (en todas las páginas)
-	5. Poner juego ¿Cuánto sabes del estrés? desde Entretenimiento. 
-	6. Arriba datos curiosos y abajo trivia. Una imagen por todos los datos curiosos.
+
+## [x] 2. Eliminar sintomas y Factores de Riesgo.
+
+## [x] 3. Eliminar Tu esfuerzo de hoy
+
+## [ ] 4. Preguntas interactivas (en todas las páginas)
+
+## [x] 5. Poner juego ¿Cuánto sabes del estrés? desde Entretenimiento. 
+
+## [ ] 6. Arriba datos curiosos y abajo trivia. Una imagen por todos los datos curiosos.
+
+En la página index.html, para las secciones "Datos curiosos" y "Preguntas  de retroalimentación" elimina la presentación en dos columnas y presenta cada sección horizontalmente.
+Para "Datos curiosos" utiliza la imagen datos-curiosos-800x800.webp que está en la carpeta \assets\images para decorar la sección, ubícala  a la izquierda de esa sección. 
+Para "Preguntas  de retroalimentación" utiliza la imagen trivia-800x800.webp que está en la carpeta \assets\images para decorar la sección, ubícala  a la izquierda de esa sección. 
+Para los cambios mánten la uniformidad  en el diseño de toda la página 
 	
-Página Identifica las Señales (antes era Consecuencias)
+# Página Identifica las Señales (antes era Consecuencias)
 	Orden:
 		Factores de Riesgo / Causas (de pagína de inicio)
 		Sintomas

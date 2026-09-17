@@ -263,76 +263,96 @@
 
         <!-- Sección de Curiosidades y Retroalimentación -->
         <section class="py-stack-lg bg-surface-container-low border-t border-outline-variant/30">
-            <div class="max-w-[1200px] mx-auto px-gutter">
-                <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+            <div class="max-w-[1200px] mx-auto px-gutter flex flex-col gap-10">
 
-                    <!-- Datos curiosos -->
-                    <div
-                        class="bg-surface rounded-3xl p-8 shadow-sm hover:shadow-md transition-shadow border border-outline-variant/20">
-                        <div class="flex items-center gap-3 mb-6">
-                            <div
-                                class="w-12 h-12 rounded-full bg-tertiary/10 flex items-center justify-center text-tertiary">
-                                <span class="material-symbols-outlined">lightbulb</span>
-                            </div>
-                            <h2 class="font-headline-md text-headline-md text-soft-navy">Datos curiosos</h2>
+                <!-- Datos curiosos -->
+                <div
+                    class="bg-surface rounded-3xl p-6 md:p-8 shadow-sm hover:shadow-md transition-shadow border border-outline-variant/20 overflow-hidden">
+                    <div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-center">
+                        <div class="md:col-span-4 flex justify-center items-center">
+                            <img src="assets/images/datos-curiosos-800x800.webp" alt="Datos curiosos"
+                                class="w-full max-w-[280px] md:max-w-full h-auto object-cover rounded-2xl shadow-md hover:scale-105 transition-transform duration-500">
                         </div>
-                        <ul class="space-y-4 font-body-md text-body-md text-on-surface-variant">
-                            <li class="flex gap-3 items-start">
-                                <span
-                                    class="material-symbols-outlined text-tertiary text-[20px] mt-0.5">psychology_alt</span>
-                                <span>El término “estrés” proviene del latín “stringere”, que significa apretar u
-                                    oprimir; fue adoptado por la fisiología en el siglo XX para describir la respuesta
-                                    del cuerpo ante demandas del entorno.</span>
-                            </li>
-                            <li class="flex gap-3 items-start">
-                                <span
-                                    class="material-symbols-outlined text-tertiary text-[20px] mt-0.5">psychology_alt</span>
-                                <span>La Organización Mundial de la Salud reconoce el bienestar psicológico como parte
-                                    esencial de la definición de salud, no solo la ausencia de enfermedad.</span>
-                            </li>
-                            <li class="flex gap-3 items-start">
-                                <span
-                                    class="material-symbols-outlined text-tertiary text-[20px] mt-0.5">psychology_alt</span>
-                                <span>El estrés es considerado un problema de salud mental que afecta aproximadamente al
-                                    50% de la población en algún momento (Caldera, Pulido y Martínez, 2007).</span>
-                            </li>
-                            <li class="flex gap-3 items-start">
-                                <span
-                                    class="material-symbols-outlined text-tertiary text-[20px] mt-0.5">psychology_alt</span>
-                                <span>La exposición sostenida al estrés puede elevar los niveles de glucocorticoides y
-                                    afectar el hipocampo, la región cerebral clave para la memoria, generando un círculo
-                                    en el que el estudiante se vuelve más vulnerable a nuevos estresores (Acurio
-                                    Padilla, 2025).</span>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <!-- Preguntas de retroalimentación -->
-                    <div
-                        class="bg-surface rounded-3xl p-8 shadow-sm hover:shadow-md transition-shadow border border-outline-variant/20">
-                        <div class="flex items-center gap-3 mb-6">
-                            <div
-                                class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary">
-                                <span class="material-symbols-outlined">forum</span>
+                        <div class="md:col-span-8 flex flex-col justify-center">
+                            <div class="flex items-center gap-3 mb-6">
+                                <div
+                                    class="w-12 h-12 rounded-full bg-tertiary/10 flex items-center justify-center text-tertiary">
+                                    <span class="material-symbols-outlined">lightbulb</span>
+                                </div>
+                                <h2 class="font-headline-md text-headline-md text-soft-navy">Puntos interesantes</h2>
                             </div>
-                            <h2 class="font-headline-md text-headline-md text-soft-navy">Preguntas de retroalimentación
-                            </h2>
+                            <ul class="space-y-4 font-body-md text-body-md text-on-surface-variant">
+                                <li class="flex gap-3 items-start">
+                                    <span
+                                        class="material-symbols-outlined text-tertiary text-[20px] mt-0.5">psychology</span>
+                                    <span>El término “estrés” proviene del latín “stringere”, que significa apretar u
+                                        oprimir; fue adoptado por la fisiología en el siglo XX para describir la
+                                        respuesta
+                                        del cuerpo ante demandas del entorno.</span>
+                                </li>
+                                <li class="flex gap-3 items-start">
+                                    <span
+                                        class="material-symbols-outlined text-tertiary text-[20px] mt-0.5">psychology</span>
+                                    <span>La Organización Mundial de la Salud reconoce el bienestar psicológico como
+                                        parte
+                                        esencial de la definición de salud, no solo la ausencia de enfermedad.</span>
+                                </li>
+                                <li class="flex gap-3 items-start">
+                                    <span
+                                        class="material-symbols-outlined text-tertiary text-[20px] mt-0.5">psychology</span>
+                                    <span>El estrés es considerado un problema de salud mental que afecta
+                                        aproximadamente al
+                                        50% de la población en algún momento (Caldera, Pulido y Martínez, 2007).</span>
+                                </li>
+                                <li class="flex gap-3 items-start">
+                                    <span
+                                        class="material-symbols-outlined text-tertiary text-[20px] mt-0.5">psychology</span>
+                                    <span>La exposición sostenida al estrés puede elevar los niveles de glucocorticoides
+                                        y
+                                        afectar el hipocampo, la región cerebral clave para la memoria, generando un
+                                        círculo
+                                        en el que el estudiante se vuelve más vulnerable a nuevos estresores (Acurio
+                                        Padilla, 2025).</span>
+                                </li>
+                            </ul>
                         </div>
-                        <ul class="space-y-4 font-body-md text-body-md text-on-surface-variant">
-                            <li class="flex gap-3 items-start">
-                                <span class="material-symbols-outlined text-primary text-[20px] mt-0.5">help</span>
-                                <span>¿Podrías mencionar dos causas y dos síntomas del estrés académico que hayas
-                                    experimentado o identificado en tu entorno universitario?</span>
-                            </li>
-                            <li class="flex gap-3 items-start">
-                                <span class="material-symbols-outlined text-primary text-[20px] mt-0.5">help</span>
-                                <span>¿Cuál es la diferencia entre el estrés como respuesta adaptativa normal y el
-                                    estrés académico crónico?</span>
-                            </li>
-                        </ul>
                     </div>
-
                 </div>
+
+                <!-- Preguntas de retroalimentación -->
+                <div
+                    class="bg-surface rounded-3xl p-6 md:p-8 shadow-sm hover:shadow-md transition-shadow border border-outline-variant/20 overflow-hidden">
+                    <div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-center">
+                        <div class="md:col-span-4 flex justify-center items-center">
+                            <img src="assets/images/trivia-800x800.webp" alt="Preguntas de retroalimentación"
+                                class="w-full max-w-[280px] md:max-w-full h-auto object-cover rounded-2xl shadow-md hover:scale-105 transition-transform duration-500">
+                        </div>
+                        <div class="md:col-span-8 flex flex-col justify-center">
+                            <div class="flex items-center gap-3 mb-6">
+                                <div
+                                    class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary">
+                                    <span class="material-symbols-outlined">forum</span>
+                                </div>
+                                <h2 class="font-headline-md text-headline-md text-soft-navy">Preguntas de
+                                    retroalimentación
+                                </h2>
+                            </div>
+                            <ul class="space-y-4 font-body-md text-body-md text-on-surface-variant">
+                                <li class="flex gap-3 items-start">
+                                    <span class="material-symbols-outlined text-primary text-[20px] mt-0.5">help</span>
+                                    <span>¿Podrías mencionar dos causas y dos síntomas del estrés académico que hayas
+                                        experimentado o identificado en tu entorno universitario?</span>
+                                </li>
+                                <li class="flex gap-3 items-start">
+                                    <span class="material-symbols-outlined text-primary text-[20px] mt-0.5">help</span>
+                                    <span>¿Cuál es la diferencia entre el estrés como respuesta adaptativa normal y el
+                                        estrés académico crónico?</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </section>
     </main>
